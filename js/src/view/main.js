@@ -7,7 +7,9 @@ $(document).ready(function() {
 		$(".fancybox").fancybox({			
 			openEffect	: 'elastic',
     	    closeEffect	: 'elastic',
-			
+			width: "80%",
+		
+					
 			  helpers:  {
       				  overlay : null					 
     			}				
@@ -36,12 +38,12 @@ $(document).ready(function() {
 			wall.fitWidth();
 
 				     // Carrega as imagens dentro do Grid  e aplica a class do fancybox nas divs            
-                     $("#1-2").html('<a class="fancybox fancybox.iframe" href="conteudos/1.html" ><img src="img/icons/ico1.svg" class="transparente"></a> <span class="ico-title"><center>Página estática</center></span>');
-					 $("#2-2").html('<a class="fancybox fancybox.iframe" href="conteudos/2.html"><img src="img/icons/ico1.svg" class="transparente"></a> <span class="ico-title"><center>Página estática</center></span>');
-					 $("#3-2").html('<a class="fancybox fancybox.iframe" href="conteudos/3.html"><img src="img/icons/ico1.svg" class="transparente"></a> <span class="ico-title"><center>Página estática</center></span>');
-					 $("#4-2").html('<a class="fancybox fancybox.iframe" href="conteudos/4.html"><img src="img/icons/ico1.svg" class="transparente"></a> <span class="ico-title"><center>Página estática</center></span>');
-					 $("#5-2").html('<a class="fancybox fancybox.iframe" href="conteudos/5.html"><img src="img/icons/ico1.svg" class="transparente"></a> <span class="ico-title"><center>Página estática</center></span>');
-					 $("#6-2").html('<a class="fancybox fancybox.iframe" href="conteudos/6.html"><img src="img/icons/ico1.svg" class="transparente"></a> <span class="ico-title"><center>Página estática</center></span>');
+                     $("#1-2").html('<a class="fancybox fancybox.iframe" href="conteudos/1.html" ><img src="img/icons/ico1.svg" class="transparente"></a> <span class="ico-title"><center>Tela Simples</center></span>');
+					 $("#2-2").html('<a class="fancybox fancybox.iframe" href="conteudos/1.html"><img src="img/icons/ico2.svg" class="transparente"></a> <span class="ico-title"><center>Tela Dinâmica</center></span>');
+					 $("#3-2").html('<a class="fancybox fancybox.iframe" href="conteudos/1.html"><img src="img/icons/ico3.svg" class="transparente"></a> <span class="ico-title"><center>Animação de baixa Complexidade</center></span>');
+					 $("#4-2").html('<a class="fancybox fancybox.iframe" href="conteudos/4.html"><img src="img/icons/ico4.svg" class="transparente"></a> <span class="ico-title"><center>Animação de media complexidade</center></span>');
+					 $("#5-2").html('<a class="fancybox fancybox.iframe" href="conteudos/5.html"><img src="img/icons/ico5.svg" class="transparente"></a> <span class="ico-title"><center>Animação de media complexidade com audio</center></span>');
+					 $("#6-2").html('<a class="fancybox fancybox.iframe" href="conteudos/6.html"><img src="img/icons/ico6.svg" class="transparente"></a> <span class="ico-title"><center>Animação de alta complexidade</center></span>');
 					 $("#7-2").html('<a class="fancybox fancybox.iframe" href="conteudos/7.html"><img src="img/icons/ico1.svg" class="transparente"></a> <span class="ico-title"><center>Página estática</center></span>');
 					 $("#8-2").html('<a class="fancybox fancybox.iframe" href="conteudos/8.html"><img src="img/icons/ico1.svg" class="transparente"></a> <span class="ico-title"><center>Página estática</center></span>');
 					 $("#9-2").html('<a class="fancybox fancybox.iframe" href="conteudos/9.html"><img src="img/icons/ico1.svg" class="transparente"></a> <span class="ico-title"><center>Página estática</center></span>');

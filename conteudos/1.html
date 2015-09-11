@@ -2,6 +2,11 @@
 <html>
 <head>
 <!-- -->
+<link href="../css/objetos.css" rel="stylesheet" type="text/css" > 
+
+<script src="../js/libs/jquery.js"></script>
+<script src="../js/libs/jquery-ui.js"></script>
+
 <script src="../js/src/model/objetos.js"></script>
 <script src="../js/src/model/storageManager.js"></script>
 </head>
@@ -9,6 +14,14 @@
 <title>Recurso 1</title>
 
 <script>
+
+$(function() {
+  $('progress').each(function() {
+    var max = $(this).val();
+    $(this).val(0).animate({ value: max }, { duration: 2000, easing: 'easeOutCirc' });
+			});
+});
+
 
 function adiciona1Teste(){
 	console.log('teste');
@@ -18,8 +31,26 @@ console.log(objeto0.quantidade);
 </script>
 </head>
 <body>
-<p>Recurso 1</p>
-<button onClick="adiciona1Teste();">Adicionar</button>
+
+<h1>Tela Simples</h1>
+<p>Produção de tela de unidade/curso, incluindo textos, hiperlinks, botões com formas geometricas simples (circulos, retangulos, setas e etc) e icones (sair, fechar, mais e etc) utilizando os padrões para desenvolvimento web (web standards), como- css, tablets, acessibilidade e etc. Podendo ser composta tambem por elementos já existentes ou outros itens já produzidos , não gerando, portanto, custos adicionais.</p>
+
+<p>Atributos do recurso</p>
+<section id="skills">
+<progress value="80" max="100"></progress><span>Textual</span>
+<progress value="70" max="100"></progress><span>Visual</span>
+<progress value="60" max="100"></progress><span>Interativo</span>
+<progress value="70" max="100"></progress><span>Social</span>
+<progress value="60" max="100"></progress><span>Tempo de produção</span>
+<progress value="80" max="100"></progress><span>Custo</span>
+</section>
+
+<center>
+<p>Inserir este objeto no meu curso</p>
+<div id="itens-selecionados">
+Quantidade: <input type="number" id="quantidade"  min="0"><br>
+<img src="../img/btnAdd.png" onClick="adiciona1Teste()" class="btns" id="botaoAdicionar">
+</div></center>
 
 
 
