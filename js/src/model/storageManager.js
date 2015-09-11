@@ -1,3 +1,5 @@
+
+
 function colocaObjetosNoArrayObjetos(){
 objetos.push(objeto0);
 objetos.push(objeto1);

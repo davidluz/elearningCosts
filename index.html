@@ -5,22 +5,30 @@
 
 
     <!-- JS -->
+    <script src="js/src/model/objetos.js"></script>
 	<script type="text/javascript" src="js/libs/jquery.js"></script>
 	<script type="text/javascript" src="js/libs/jquery.fancybox.js?v=2.1.5"></script>
 	<script type="text/javascript" src="js/libs/jquery.mousewheel-3.0.6.pack.js"></script>
+    <script src="js/libs/jquery-ui.js"></script>
 	<script type="text/javascript" src="js/libs/freewall.js"></script>
     <script src="js/src/model/storageManager.js"></script>
-    <script src="js/src/model/objetos.js"></script>
+    <script src="js/src/controller/userUiControllers.js"></script>
     <script src="js/src/view/main.js"></script>
 	
 	<!-- CSS -->
 	<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css" media="screen" />
    	<link rel="stylesheet" type="text/css" href="css/ri-style.css" />
+    <link href="css/objetos.css" rel="stylesheet" type="text/css" > 
+  
 
 </head>
-<body ng-app="myApp" ng-controller="myCtrl">
+<body >
+
+
+<div id="home">
 <div id="moodle-ri">
 	<div id="body-ri">
+
     <div class="ri-title">Cardápio de Recursos  </div>
 		<div id="freewall" class="free-wall"></div>
 		
@@ -32,7 +40,7 @@
   	</div>
     
     <div id="footer">
-     <div id="coluna1"> <p class="text-default">Textual:<span id="custo-total">
+     <div id="coluna1"> <p class="text-default">Textual:<span>
       </span><br>Visual: <br>Interativo: <br>Social:</p></div>
       <img src="img/btn.png" id="btn_atualizar">
     
@@ -40,11 +48,57 @@
      </span><br>Tempo de consumo estimado: 
      <br>Tempo estimado de produção: 
      <br><a href="#">Ver itens selecionados</a> </p></div>
-     
-      
-     
-     
+  
    </div>
 </div>
+</div>
+
+<!-- Conteúdos começam aqui -->
+<div id="conteudo1" class="conteudos">
+
+<script>
+
+$(function() {
+  $('progress').each(function() {
+    var max = $(this).val();
+    $(this).val(0).animate({ value: max }, { duration: 2000, easing: 'easeOutCirc' });
+			});
+});
+
+
+function adiciona1Teste(){
+	console.log('teste');
+objeto0.quantidade = objeto0.quantidade +10;
+console.log(objeto0.quantidade);
+}
+</script>
+
+
+<h1>Tela Simples</h1>
+<p>Produção de tela de unidade/curso, incluindo textos, hiperlinks, botões com formas geometricas simples (circulos, retangulos, setas e etc) e icones (sair, fechar, mais e etc) utilizando os padrões para desenvolvimento web (web standards), como- css, tablets, acessibilidade e etc. Podendo ser composta tambem por elementos já existentes ou outros itens já produzidos , não gerando, portanto, custos adicionais.</p>
+
+<p>Atributos do recurso</p>
+<section id="skills">
+<progress value="80" max="100"></progress><span>Textual</span>
+<progress value="70" max="100"></progress><span>Visual</span>
+<progress value="60" max="100"></progress><span>Interativo</span>
+<progress value="70" max="100"></progress><span>Social</span>
+<progress value="60" max="100"></progress><span>Tempo de produção</span>
+<progress value="80" max="100"></progress><span>Custo</span>
+</section>
+
+<center>
+<p>Inserir este objeto no meu curso</p>
+<div id="itens-selecionados">
+Quantidade: <input type="number" id="quantidade0"  min="0"><br>
+<img src="img/btnAdd.png"  class="btns" id="botaoAdicionar0">
+</div></center>
+</div>
+
+
+
+
+
+
 </body>
 </html>

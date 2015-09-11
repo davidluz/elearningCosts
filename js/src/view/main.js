@@ -8,7 +8,7 @@ $(document).ready(function() {
 			openEffect	: 'elastic',
     	    closeEffect	: 'elastic',
 			width: "80%",
-		
+			
 					
 			  helpers:  {
       				  overlay : null					 
@@ -38,7 +38,7 @@ $(document).ready(function() {
 			wall.fitWidth();
 
 				     // Carrega as imagens dentro do Grid  e aplica a class do fancybox nas divs            
-                     $("#1-2").html('<a class="fancybox fancybox.iframe" href="conteudos/1.html" ><img src="img/icons/ico1.svg" class="transparente"></a> <span class="ico-title"><center>Tela Simples</center></span>');
+                     $("#1-2").html('<a class="fancybox" href="#conteudo1"><img src="img/icons/ico1.svg" class="transparente"></a> <span class="ico-title"><center>Tela Simples</center></span>');
 					 $("#2-2").html('<a class="fancybox fancybox.iframe" href="conteudos/1.html"><img src="img/icons/ico2.svg" class="transparente"></a> <span class="ico-title"><center>Tela Dinâmica</center></span>');
 					 $("#3-2").html('<a class="fancybox fancybox.iframe" href="conteudos/1.html"><img src="img/icons/ico3.svg" class="transparente"></a> <span class="ico-title"><center>Animação de baixa Complexidade</center></span>');
 					 $("#4-2").html('<a class="fancybox fancybox.iframe" href="conteudos/4.html"><img src="img/icons/ico4.svg" class="transparente"></a> <span class="ico-title"><center>Animação de media complexidade</center></span>');
@@ -69,7 +69,9 @@ recuperaObjetosNoStorage();
 calcultaTotalDoCarrinho();
 console.log(valorTotal);
 
+
 }); 
+
 
 /*Fim dos itens que inicializam junto com a página*/
 

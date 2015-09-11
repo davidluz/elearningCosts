@@ -2,32 +2,32 @@
 @charset "utf-8";
 @import url(https://fonts.googleapis.com/css?family=Lato);
 
-body{
+.conteudos{
 font-family: 'Lato', sans-serif;	
-color: #C9C9C9;
+color: #ffffff;
 }
 
-h1{
+.conteudos h1{
 	font-size:2em;
 
 }
 
-.btns{
+ .conteudos .btns{
 cursor: pointer;
 transition: all .2s ease-in-out;
 }
 
-.btns:hover{
+.conteudos .btns:hover{
 box-shadow: 1px 1px 10px #888888;
 
 }
 
-.btns:active{
+.conteudos .btns:active{
 	transform: scale(0.9); 
 }
 
 
-#skills span {
+#skills span{
     top: -30px;
     left: 2%;
     position: relative;
@@ -36,26 +36,28 @@ box-shadow: 1px 1px 10px #888888;
     color: #fff;
 }
 
-progress {
-    background-color: #f3f3f3;
+ progress{
+    background-color: #fff;
     border: 0;
     height: 2.5em;
     width: 100%;
 }
 
-progress::-webkit-progress-bar {
+ progress::-webkit-progress-bar {
     background-color: #e0eaf0;
 }
 
 progress::-webkit-progress-value {
-    background-color: #46b692;
+    background-color: #44ae8d;
+	
 }
 
-progress::-moz-progress-bar {
-    background-color: #46b692;
+.conteudos progress::-moz-progress-bar {
+    background-color: #44ae8d;
+	opacity: 1;
 }
 
-#botaoAdicionar{
+.conteudos #botaoAdicionar{
 margin-top: 20px;
 
 }
