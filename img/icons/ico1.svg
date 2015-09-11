@@ -1,0 +1,39 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" width="200px" height="200px" viewBox="0 0 200 200">
+<defs>
+<path id="ico1_0_Layer0_0_1_STROKES" stroke="#FFFFFF" stroke-width="1" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 15.4 125.3
+L 15.4 144.4
+Q 15.4 152.95 23.95 152.95
+L 125.85 152.95
+Q 134.4 152.95 134.4 144.4
+L 134.4 23.45 110.95 23.45 110.95 0 23.95 0
+Q 15.4 0 15.4 8.55
+L 15.4 70.35
+M 110.95 0
+L 134.4 23.45
+M 5.7 71.4
+L 80.75 71.4
+Q 86.45 71.4 86.45 77.1
+L 86.45 117.85
+Q 86.45 123.55 80.75 123.55
+L 5.7 123.55
+Q 0 123.55 0 117.85
+L 0 77.1
+Q 0 71.4 5.7 71.4 Z"/>
+</defs>
+
+<g transform="matrix( 1, 0, 0, 1, 28.8,21.75) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#ico1_0_Layer0_0_1_STROKES"/>
+</g>
+
+<g transform="matrix( 0.71337890625, 0, 0, 0.71337890625, 9.5,81.4) ">
+<clipPath id="Mask_Mask_1">
+<rect x="-2" y="-2" width="103.1" height="52" fill="#FFFFFF" stroke="none"/>
+</clipPath>
+
+<text clip-path="url(#Mask_Mask_1)" writing-mode="lr"><tspan x="0" y="29.6" baseline-shift="0%" font-family="Lato" font-weight="bold" font-size="30" fill="#FFFFFF" xml:space="preserve">HTML</tspan></text>
+</g>
+</g>
+</svg>
