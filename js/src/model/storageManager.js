@@ -1,10 +1,8 @@
-
-
 function colocaObjetosNoArrayObjetos(){
 objetos.push(objeto0);
 objetos.push(objeto1);
 objetos.push(objeto2);
-objetos.push(objeto3);
+objetos.push(objeto3); 
 objetos.push(objeto4);
 }
 
