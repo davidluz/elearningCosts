@@ -4,10 +4,15 @@ var valorTotal = 0;
 $(document).ready(function() {
 		
 		
-		$(".fancybox").fancybox({			
+		$(".fancybox").fancybox({	
+		   // Se não setar o aoSize o tamanho não funciona
+		   autoSize:false,		
 			openEffect	: 'elastic',
     	    closeEffect	: 'elastic',
-			width: "80%",
+			
+			width: '90%',
+			height: '90%',
+			
 			
 					
 			  helpers:  {
@@ -67,7 +72,7 @@ colocaObjetosNoArrayObjetos();
 guardaObjetosNoStorage();
 recuperaObjetosNoStorage();
 calcultaTotalDoCarrinho();
-console.log(valorTotal);
+
 
 
 }); 

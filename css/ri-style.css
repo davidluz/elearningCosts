@@ -1,4 +1,6 @@
-
+.btnsadicao{
+margin-top: 10px;	
+}
 
 .ri-title{
 	font-family: 'Lato', sans-serif;
@@ -138,8 +140,8 @@ opacity: 0.9;
    width:100%;
    background: #29313c;
    opacity: 1.0;
- 
    color: #ffffff;
+   display: none;
 }
 
 #coluna1{
@@ -165,6 +167,30 @@ cursor: pointer;
 display:none;
 }			
 
+#resumo-curso{
+display: none;
 
+}
+
+h3{
+	font-size:16px;
+	display:inline;
+	
+}
+.addFeedback{
+display: none;
+margin-bottom: 0px;
+}
+
+#sucess-add {
+	color:#03C9A9;
+	margin-top: 0px;
+	
+}
+
+#no-add {
+	color:#D64541;
+	margin-top: 0px;
+}
 
 

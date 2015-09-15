@@ -25,6 +25,7 @@
 <body >
 
 
+
 <div id="home">
 <div id="moodle-ri">
 	<div id="body-ri">
@@ -39,20 +40,19 @@
 		</script>
   	</div>
     
-    <div id="footer">
-     <div id="coluna1"> <p class="text-default">Textual:<span>
-      </span><br>Visual: <br>Interativo: <br>Social:</p></div>
-        
-    <div id="coluna2"> <p class="text-default">Custo total estimado: R$<span id="custo-total">
-     </span><br>Tempo de consumo estimado: 
-     <br>Tempo estimado de produção: 
-     <br><a href="#">Ver itens selecionados</a> </p></div>
-  
-   </div>
-</div>
+<a href="#resumo-curso" class="fancybox">VER RESUMO DO CURSO</a>
 </div>
 
 <!-- Conteúdos começam aqui -->
+
+<div id="resumo-curso" class="conteudos">
+<h1>Resumo do seu curso:</h1>
+<p>Produção de tela de unidade/curso, incluindo textos, hiperlinks, botões com formas geometricas simples (circulos, retangulos, setas e etc) e icones (sair, fechar, mais e etc) utilizando os padrões para desenvolvimento web (web standards), como- css, tablets, acessibilidade e etc. Podendo ser composta tambem por elementos já existentes ou outros itens já produzidos , não gerando, portanto, custos adicionais.</p>
+<div id="resumo-do-curso-conteudo"></div>
+<button>Estimar custos</button>
+</div>
+
+
 <div id="conteudo1" class="conteudos">
 
 <script>
@@ -90,14 +90,22 @@ console.log(objeto0.quantidade);
 <p>Inserir este objeto no meu curso</p>
 <div id="itens-selecionados">
 Quantidade: <input type="number" id="quantidade0"  min="0"><br>
-<img src="img/btnAdd.png"  class="btns" id="botaoAdicionar0">
-</div></center>
+<p class="addFeedback" id="sucess-add" >Adicionado no seu curso!</p>
+<p class="addFeedback" id="no-add" >Insira uma quantidade válida</p>
+<img src="img/btnAdd.png"  class="btns btnsadicao" id="botaoAdicionar0">
+</div>
+
+</center>
+
 </div>
 
 
 
 
 
+
+
+</div>
 
 </body>
 </html>
