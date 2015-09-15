@@ -29,6 +29,9 @@ font-weight:lighter;
 }
 
 body{
+margin: 0px;
+padding: 0px;
+	
 background: linear-gradient(82deg, #4183d7, #f27935);
 background-size: 400% 400%;
 
@@ -131,17 +134,13 @@ opacity: 0.9;
 		-webkit-transition: top 0.5s, left 0.5s, width 0.5s, height 0.5s;
 	}
 	
-#footer {
-	
-  position: fixed;
-   left:0px;
-   bottom:0px;
-   height:20%;
+footer {
+   height:10%;
    width:100%;
    background: #29313c;
    opacity: 1.0;
    color: #ffffff;
-   display: none;
+   z-index:2;
 }
 
 #coluna1{

@@ -1,13 +1,13 @@
 //Objetos do Cardápio
 objeto0 = {   id: 0,
               nome: 'Objeto 0',
-              quantidade: 1,
+              quantidade: 0,
               descricao: 'Objeto 0',
               custo: 10};
 		
 objeto1 = {   id:1,
               nome: 'Objeto 1', 
-              quantidade: 1,
+              quantidade: 0,
               descricao: 'Objeto 1',
               custo: 10};
 			  

@@ -23,7 +23,7 @@ $(document).ready(function() {
 		
 
 			var temp = "<div class='cell' style='width:{width}px; height: {height}px;'></div>";
-			var w = 200, h = 200, html = '', limitItem = 23;
+			var w = 210, h = 210, html = '', limitItem = 23;
 			for (var i = 0; i < limitItem; ++i) {
 				html += temp.replace(/\{height\}/g, h).replace(/\{width\}/g, w).replace("{index}", i + 1);
 			}
@@ -33,8 +33,8 @@ $(document).ready(function() {
 			wall.reset({
 				selector: '.cell',
 				animate: false,
-				cellW: 200,
-				cellH: 200,
+				cellW: 210,
+				cellH: 210,
 				delay: 50,
 				onResize: function() {
 					wall.fitWidth();
