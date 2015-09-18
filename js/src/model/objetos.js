@@ -23,7 +23,7 @@ objeto3 = {   id: 3,
               descricao: 'Objeto 3',
               custo: 10};
 			  	
-objeto4 = {   id: 4,
+objeto4 = {    id: 4,
               nome: 'Objeto 4', 
               quantidade: 0,
               descricao: 'Objeto 4',
