@@ -1,9 +1,9 @@
 //Objetos do Cardápio
 objeto0 = {   id: 0,
-              nome: 'Objeto 0',
+              nome: 'Tela Simples',
               quantidade: 0,
-              descricao: 'Objeto 0',
-              custo: 10};
+              descricao: 'Produção de tela de unidade/curso, incluindo textos, hiperlinks, botões com formas geometricas simples (circulos, retangulos, setas e etc) e icones (sair, fechar, mais e etc) utilizando os padrões para desenvolvimento web (web standards), como- css, tablets, acessibilidade e etc. Podendo ser composta tambem por elementos já existentes ou outros itens já produzidos , não gerando, portanto, custos adicionais.',
+              custo: 65};
 		
 objeto1 = {   id:1,
               nome: 'Objeto 1', 

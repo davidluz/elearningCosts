@@ -213,6 +213,16 @@ margin-top: 1%
 
 }
 
+.image-miniaturas{
+	max-width: 50%;
+	height: auto;
+	border: solid;
+	border-width:thin;
+	border-color:#B1B1B1;
+	
+	
+}
+
 @media (max-width:1200px){
 
 .ri-title{

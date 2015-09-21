@@ -60,7 +60,7 @@ function renderizaResultados(){
 		
 		if ((objetos[i]).quantidade>0){
 			
-	$("#resumo-do-curso-conteudo").append("<br><h3>Recurso:</h3> "+ objetos[i].nome +"<br><h3>Quantidade:</h3>"+ objetos[i].quantidade);
+	$("#resumo-do-curso-conteudo").append("<br><h3>Recurso: </h3> "+ objetos[i].nome +"<br><h3>Quantidade: </h3>"+ objetos[i].quantidade +"<br>"+ "<h3>Total:</h3> R$ "+ objetos[i].quantidade*objetos[i].custo+"<br>");
 			console.log('renderizou um resultado');
 			}
 	
