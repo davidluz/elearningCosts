@@ -43,29 +43,29 @@ $(document).ready(function() {
 			wall.fitWidth();
 
 				     // Carrega as imagens dentro do Grid  e aplica a class do fancybox nas divs            
-                     $("#1-2").html('<a class="fancybox" href="#conteudo1"><img src="img/icons/ico1.svg" class="transparente"></a> <span class="ico-title"><center>Tela Simples</center></span>');
-					 $("#2-2").html('<a class="fancybox fancybox.iframe" href="conteudos/1.html"><img src="img/icons/ico2.svg" class="transparente"></a> <span class="ico-title"><center>Tela Dinâmica</center></span>');
-					 $("#3-2").html('<a class="fancybox fancybox.iframe" href="conteudos/1.html"><img src="img/icons/ico3.svg" class="transparente"></a> <span class="ico-title"><center>Animação de baixa Complexidade</center></span>');
-					 $("#4-2").html('<a class="fancybox fancybox.iframe" href="conteudos/4.html"><img src="img/icons/ico4.svg" class="transparente"></a> <span class="ico-title"><center>Animação de media complexidade</center></span>');
-					 $("#5-2").html('<a class="fancybox fancybox.iframe" href="conteudos/5.html"><img src="img/icons/ico5.svg" class="transparente"></a> <span class="ico-title"><center>Animação de media complexidade com audio</center></span>');
-					 $("#6-2").html('<a class="fancybox fancybox.iframe" href="conteudos/6.html"><img src="img/icons/ico6.svg" class="transparente"></a> <span class="ico-title"><center>Animação de alta complexidade</center></span>');
-					 $("#7-2").html('<a class="fancybox fancybox.iframe" href="conteudos/7.html"><img src="img/icons/ico1.svg" class="transparente"></a> <span class="ico-title"><center>Página estática</center></span>');
-					 $("#8-2").html('<a class="fancybox fancybox.iframe" href="conteudos/8.html"><img src="img/icons/ico1.svg" class="transparente"></a> <span class="ico-title"><center>Página estática</center></span>');
-					 $("#9-2").html('<a class="fancybox fancybox.iframe" href="conteudos/9.html"><img src="img/icons/ico1.svg" class="transparente"></a> <span class="ico-title"><center>Página estática</center></span>');
-					 $("#10-2").html('<a class="fancybox fancybox.iframe" href="conteudos/10.html"><img src="img/icons/ico1.svg" class="transparente"></a> <span class="ico-title"><center>Página estática</center></span>');
-					 $("#11-2").html('<a class="fancybox fancybox.iframe" href="conteudos/11.html"><img src="img/icons/ico1.svg" class="transparente"></a> <span class="ico-title"><center>Página estática</center></span>');
-					 $("#12-2").html('<a class="fancybox fancybox.iframe" href="conteudos/12.html"><img src="img/icons/ico1.svg" class="transparente"></a> <span class="ico-title"><center>Página estática</center></span>');
-					 $("#13-2").html('<a class="fancybox fancybox.iframe" href="conteudos/13.html"><img src="img/icons/ico1.svg" class="transparente"></a> <span class="ico-title"><center>Página estática</center></span>');
-					 $("#14-2").html('<a class="fancybox fancybox.iframe" href="conteudos/14.html"><img src="img/icons/ico1.svg" class="transparente"></a> <span class="ico-title"><center>Página estática</center></span>');
-					 $("#15-2").html('<a class="fancybox fancybox.iframe" href="conteudos/15.html"><img src="img/icons/ico1.svg" class="transparente"></a> <span class="ico-title"><center>Página estática</center></span>');
-					 $("#16-2").html('<a class="fancybox fancybox.iframe" href="conteudos/16.html"><img src="img/icons/ico1.svg" class="transparente"></a> <span class="ico-title"><center>Página estática</center></span>');
-					 $("#17-2").html('<a class="fancybox fancybox.iframe" href="conteudos/17.html"><img src="img/icons/ico1.svg" class="transparente"></a> <span class="ico-title"><center>Página estática</center></span>');
-					 $("#18-2").html('<a class="fancybox fancybox.iframe" href="conteudos/18.html"><img src="img/icons/ico1.svg" class="transparente"></a> <span class="ico-title"><center>Página estática</center></span>');
-					 $("#19-2").html('<a class="fancybox fancybox.iframe" href="conteudos/19.html"><img src="img/icons/ico1.svg" class="transparente"></a> <span class="ico-title"><center>Página estática</center></span>');
-					 $("#20-2").html('<a class="fancybox fancybox.iframe" href="conteudos/20.html"><img src="img/icons/ico1.svg" class="transparente"></a> <span class="ico-title"><center>Página estática</center></span>');
-					 $("#21-2").html('<a class="fancybox fancybox.iframe" href="conteudos/21.html"><img src="img/icons/ico1.svg" class="transparente"></a> <span class="ico-title"><center>Página estática</center></span>');
-					 $("#22-2").html('<a class="fancybox fancybox.iframe" href="conteudos/22.html"><img src="img/icons/ico1.svg" class="transparente"></a> <span class="ico-title"><center>Página estática</center></span>');
-					 $("#23-2").html('<a class="fancybox fancybox.iframe" href="conteudos/23.html"><img src="img/icons/ico1.svg" class="transparente"></a> <span class="ico-title"><center>Página estática</center></span>');
+                     $("#1-2").html('<a class="fancybox" href="#conteudo1"><img src="img/icons/0.png" class="transparente"></a> ');
+					 $("#2-2").html('<a class="fancybox fancybox.iframe" href="conteudos/1.html"><img src="img/icons/0.png" class="transparente"></a> ');
+					 $("#3-2").html('<a class="fancybox fancybox.iframe" href="conteudos/1.html"><img src="img/icons/0.png" class="transparente"></a> ');
+					 $("#4-2").html('<a class="fancybox fancybox.iframe" href="conteudos/4.html"><img src="img/icons/0.png" class="transparente"></a> ');
+					 $("#5-2").html('<a class="fancybox fancybox.iframe" href="conteudos/5.html"><img src="img/icons/0.png" class="transparente"></a> ');
+					 $("#6-2").html('<a class="fancybox fancybox.iframe" href="conteudos/6.html"><img src="img/icons/0.png" class="transparente"></a> ');
+					 $("#7-2").html('<a class="fancybox fancybox.iframe" href="conteudos/7.html"><img src="img/icons/0.png" class="transparente"></a> ');
+					 $("#8-2").html('<a class="fancybox fancybox.iframe" href="conteudos/8.html"><img src="img/icons/0.png" class="transparente"></a> ');
+					 $("#9-2").html('<a class="fancybox fancybox.iframe" href="conteudos/9.html"><img src="img/icons/0.png" class="transparente"></a> ');
+					 $("#10-2").html('<a class="fancybox fancybox.iframe" href="conteudos/10.html"><img src="img/icons/0.png" class="transparente"></a> ');
+					 $("#11-2").html('<a class="fancybox fancybox.iframe" href="conteudos/11.html"><img src="img/icons/0.png" class="transparente"></a> ');
+					 $("#12-2").html('<a class="fancybox fancybox.iframe" href="conteudos/12.html"><img src="img/icons/0.png" class="transparente"></a> ');
+					 $("#13-2").html('<a class="fancybox fancybox.iframe" href="conteudos/13.html"><img src="img/icons/0.png" class="transparente"></a> ');
+					 $("#14-2").html('<a class="fancybox fancybox.iframe" href="conteudos/14.html"><img src="img/icons/0.png" class="transparente"></a> ');
+					 $("#15-2").html('<a class="fancybox fancybox.iframe" href="conteudos/15.html"><img src="img/icons/0.png" class="transparente"></a> ');
+					 $("#16-2").html('<a class="fancybox fancybox.iframe" href="conteudos/16.html"><img src="img/icons/0.png" class="transparente"></a> ');
+					 $("#17-2").html('<a class="fancybox fancybox.iframe" href="conteudos/17.html"><img src="img/icons/0.png" class="transparente"></a> ');
+					 $("#18-2").html('<a class="fancybox fancybox.iframe" href="conteudos/18.html"><img src="img/icons/0.png" class="transparente"></a> ');
+					 $("#19-2").html('<a class="fancybox fancybox.iframe" href="conteudos/19.html"><img src="img/icons/0.png" class="transparente"></a> ');
+					 $("#20-2").html('<a class="fancybox fancybox.iframe" href="conteudos/20.html"><img src="img/icons/0.png" class="transparente"></a> ');
+					 $("#21-2").html('<a class="fancybox fancybox.iframe" href="conteudos/21.html"><img src="img/icons/0.png" class="transparente"></a> ');
+					 $("#22-2").html('<a class="fancybox fancybox.iframe" href="conteudos/22.html"><img src="img/icons/0.png" class="transparente"></a> ');
+					 $("#23-2").html('<a class="fancybox fancybox.iframe" href="conteudos/23.html"><img src="img/icons/0.png" class="transparente"></a> ');
 
 
 colocaObjetosNoArrayObjetos();

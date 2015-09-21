@@ -30,7 +30,8 @@
 <div id="moodle-ri">
 	<div id="body-ri">
 
-    <div class="ri-title">Cardápio de Recursos  </div>
+    <div class="ri-title"><img id="logo" src="img/logo.png"> <span id="titulo-principal">Cardápio de recursos</span>  </div>
+    
 		<div id="freewall" class="free-wall"></div>
 		
 		
@@ -40,7 +41,7 @@
 		</script>
   	</div>
     
-<a href="#resumo-curso" class="fancybox">VER RESUMO DO CURSO</a>
+<a href="#resumo-curso" class="fancybox" id="menu-button"><img src="img/menu-ico.png"></a>
 </div>
 
 <!-- Conteúdos começam aqui -->
@@ -50,6 +51,22 @@
 <p></p>
 <div id="resumo-do-curso-conteudo"></div>
 <button>Estimar custos</button>
+<table id="datatable">
+    <tr>
+        <td  id="a1"> a1</td>
+        <td  id="b1"> b1</td>
+        <td  id="c1"> c1</td>
+    </tr>
+    <tr>
+        <td id="a2"> a2</td>
+        <td id="b2"> b2</td>
+        <td id="c2"> c2</td>
+    </tr>
+</table>
+<a download="somedata.xls"
+    href="#"
+    onclick="return ExcellentExport.excel(this, 'datatable', 'Sheet Name Here');">
+        Export table to Excel</a>
 </div>
 
 
@@ -100,8 +117,9 @@ Quantidade: <input type="number" id="quantidade0"  min="0"><br>
 </div>
 
 </div>
-<footer><center>Conteúdo do footer</center></footer>
+<footer><center><p>Fundação Vanzolini - 2015</p></center></footer>
 
 
 </body>
+<script src="js/libs/excellentexport.min.js"></script>
 </html>
