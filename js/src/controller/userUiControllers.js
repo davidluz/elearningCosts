@@ -12,22 +12,121 @@ setTimeout(ocultaConteudo, 1000);
 
 $(document).ready(function() {
 	
-$("#botaoAdicionar0").click(function() {
-     
+
+/* Crias as actions para cada botão que adiciona itens */
+$("#botaoAdicionar0").click(function(){
+adicionaItemNoCarrinho(0);
+});
+
+$("#botaoAdicionar1").click(function(){
+adicionaItemNoCarrinho(1);
+});	
+
+$("#botaoAdicionar2").click(function(){
+adicionaItemNoCarrinho(2);
+});	
+
+$("#botaoAdicionar3").click(function(){
+adicionaItemNoCarrinho(3);
+});	
+
+$("#botaoAdicionar4").click(function(){
+adicionaItemNoCarrinho(4);
+});	
+
+$("#botaoAdicionar5").click(function(){
+adicionaItemNoCarrinho(5);
+});	
+
+$("#botaoAdicionar6").click(function(){
+adicionaItemNoCarrinho(6);
+});	
+
+$("#botaoAdicionar7").click(function(){
+adicionaItemNoCarrinho(7);
+});	
+
+$("#botaoAdicionar8").click(function(){
+adicionaItemNoCarrinho(8);
+});	
+
+$("#botaoAdicionar9").click(function(){
+adicionaItemNoCarrinho(9);
+});	
+
+$("#botaoAdicionar10").click(function(){
+adicionaItemNoCarrinho(10);
+});	
+
+$("#botaoAdicionar11").click(function(){
+adicionaItemNoCarrinho(11);
+});		
+
+$("#botaoAdicionar12").click(function(){
+adicionaItemNoCarrinho(12);
+});	
+
+$("#botaoAdicionar13").click(function(){
+adicionaItemNoCarrinho(13);
+});	
+
+$("#botaoAdicionar14").click(function(){
+adicionaItemNoCarrinho(14);
+});	
+
+$("#botaoAdicionar15").click(function(){
+adicionaItemNoCarrinho(15);
+});	
+
+$("#botaoAdicionar16").click(function(){
+adicionaItemNoCarrinho(16);
+});	
+
+$("#botaoAdicionar17").click(function(){
+adicionaItemNoCarrinho(17);
+});	
+
+$("#botaoAdicionar18").click(function(){
+adicionaItemNoCarrinho(18);
+});	
+
+$("#botaoAdicionar19").click(function(){
+adicionaItemNoCarrinho(19);
+});	
+
+$("#botaoAdicionar20").click(function(){
+adicionaItemNoCarrinho(20);
+});	
+
+$("#botaoAdicionar21").click(function(){
+adicionaItemNoCarrinho(21);
+});	
+
+$("#botaoAdicionar22").click(function(){
+adicionaItemNoCarrinho(22);
+});	
+
+$("#botaoAdicionar23").click(function(){
+adicionaItemNoCarrinho(23);
+});	
+
+
+
+function adicionaItemNoCarrinho(objeto){
 	 // Verifica se usuário inseriu um número válido
-    if (isNaN(parseInt($("#quantidade0").val()))){
-	$("#no-add").fadeIn();
+    if (isNaN(parseInt($("#quantidade"+objeto).val()))){
+	$(".no-add").fadeIn();
 	ocultaFeedback();
 	}
 	
 	else{
-	modificaQuantidadeDeObjeto(0,parseInt($("#quantidade0").val())); 
+	modificaQuantidadeDeObjeto(objeto,parseInt($("#quantidade"+objeto).val())); 
 	renderizaResultados();
-	$("#sucess-add").fadeIn();
+	$(".sucess-add").fadeIn();
 	ocultaFeedback();
-	}
+	}	
 
-});	
+}
 	
 
     

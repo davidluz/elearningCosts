@@ -6,26 +6,231 @@ objeto0 = {   id: 0,
               custo: 65};
 		
 objeto1 = {   id:1,
-              nome: 'Objeto 1', 
+              nome: 'Tela Dinâmica',
+			  unidade: 'vazio', 
               quantidade: 0,
               descricao: 'Objeto 1',
-              custo: 10};
+			  pedagogica: 2,
+			  tecnica: 2,
+			  acompanhamento: 1,
+              custo: 10
+			  };
 			  
 objeto2 = {   id: 2, 
-              nome: 'Objeto 2', 
+              nome: 'Animação de Baixa Complexidade', 
+			  unidade: 'vazio', 
               quantidade: 0,
               descricao: 'Objeto 2',
-              custo: 10};
+			  pedagogica: 2,
+			  tecnica: 2,
+			  acompanhamento: 1,
+              custo: 10
+			  };
 		
 objeto3 = {   id: 3,
-              nome: 'Objeto 3',
+              nome: 'Animação de Média Complexidade',
+			  unidade: 'vazio', 
+			  unidade: 'vazio', 
+			  unidade: 'vazio', 
               quantidade: 0,
               descricao: 'Objeto 3',
-              custo: 10};
+			  pedagogica: 2,
+			  tecnica: 2,
+			  acompanhamento: 1,
+              custo: 10
+			  };
 			  	
-objeto4 = {    id: 4,
-              nome: 'Objeto 4', 
+objeto4 = {   id: 4, 
+              nome: 'Animação de Média Complexidade com audio', 
+			  unidade: 'vazio', 
+			  unidade: 'vazio', 
               quantidade: 0,
               descricao: 'Objeto 4',
-              custo: 10};				  
+			  pedagogica: 2,
+			  tecnica: 2,
+			  acompanhamento: 1,
+              custo: 10
+			  };	
+objeto7 = {   id: 4, 
+              nome: 'Animação de Média Complexidade com audio',
+			  unidade: 'vazio', 
+			  unidade: 'vazio',  
+              quantidade: 0,
+              descricao: 'Objeto 4',
+			  pedagogica: 2,
+			  tecnica: 2,
+			  acompanhamento: 1,
+              custo: 10
+			  };	
+			  
+objeto8 = {   id: 4, 
+              nome: 'Animação de Média Complexidade com audio', 
+			  unidade: 'vazio', 
+              quantidade: 0,
+              descricao: 'Objeto 4',
+			  pedagogica: 2,
+			  tecnica: 2,
+			  acompanhamento: 1,
+              custo: 10
+			  };	
+objeto9 = {   id: 4, 
+              nome: 'Animação de Média Complexidade com audio', 
+			  unidade: 'vazio', 
+              quantidade: 0,
+              descricao: 'Objeto 4',
+			  pedagogica: 2,
+			  tecnica: 2,
+			  acompanhamento: 1,
+              custo: 10
+			  };	
+objeto10 = {  id: 4, 
+              nome: 'Animação de Média Complexidade com audio', 
+			  unidade: 'vazio', 
+              quantidade: 0,
+              descricao: 'Objeto 4',
+			  pedagogica: 2,
+			  tecnica: 2,
+			  acompanhamento: 1,
+              custo: 10
+			  };	 	
+objeto11 = {  id: 4, 
+              nome: 'Animação de Média Complexidade com audio', 
+			  unidade: 'vazio', 
+              quantidade: 0,
+              descricao: 'Objeto 4',
+			  pedagogica: 2,
+			  tecnica: 2,
+			  acompanhamento: 1,
+              custo: 10
+			  };	
+objeto12 = {  id: 4, 
+              nome: 'Animação de Média Complexidade com audio', 
+			  unidade: 'vazio', 
+              quantidade: 0,
+              descricao: 'Objeto 4',
+			  pedagogica: 2,
+			  tecnica: 2,
+			  acompanhamento: 1,
+              custo: 10
+			  };	
+			  
+objeto13 = {  id: 4, 
+              nome: 'Animação de Média Complexidade com audio', 
+			  unidade: 'vazio', 
+              quantidade: 0,
+              descricao: 'Objeto 4',
+			  pedagogica: 2,
+			  tecnica: 2,
+			  acompanhamento: 1,
+              custo: 10
+			  };	
+			  
+objeto14 = {  id: 4, 
+              nome: 'Animação de Média Complexidade com audio', 
+			  unidade: 'vazio', 
+              quantidade: 0,
+              descricao: 'Objeto 4',
+			  pedagogica: 2,
+			  tecnica: 2,
+			  acompanhamento: 1,
+              custo: 10
+			  };	
+objeto15 = {  id: 4, 
+              nome: 'Animação de Média Complexidade com audio', 
+			  unidade: 'vazio', 
+              quantidade: 0,
+              descricao: 'Objeto 4',
+			  pedagogica: 2,
+			  tecnica: 2,
+			  acompanhamento: 1,
+              custo: 10
+			  };	
+objeto16 = {  id: 4, 
+              nome: 'Animação de Média Complexidade com audio', 
+			  unidade: 'vazio', 
+              quantidade: 0,
+              descricao: 'Objeto 4',
+			  pedagogica: 2,
+			  tecnica: 2,
+			  acompanhamento: 1,
+              custo: 10
+			  };	
+objeto17 = {  id: 4, 
+              nome: 'Animação de Média Complexidade com audio', 
+			  unidade: 'vazio', 
+              quantidade: 0,
+              descricao: 'Objeto 4',
+			  pedagogica: 2,
+			  tecnica: 2,
+			  acompanhamento: 1,
+              custo: 10
+			  };
+objeto18 = {  id: 4, 
+              nome: 'Animação de Média Complexidade com audio', 
+			  unidade: 'vazio', 
+              quantidade: 0,
+              descricao: 'Objeto 4',
+			  pedagogica: 2,
+			  tecnica: 2,
+			  acompanhamento: 1,
+              custo: 10
+			  };
+objeto19 = {  id: 4, 
+              nome: 'Animação de Média Complexidade com audio', 
+			  unidade: 'vazio', 
+              quantidade: 0,
+              descricao: 'Objeto 4',
+			  pedagogica: 2,
+			  tecnica: 2,
+			  acompanhamento: 1,
+              custo: 10
+			  };
+			  	
+objeto20 = {  id: 4, 
+              nome: 'Animação de Média Complexidade com audio', 
+			  unidade: 'vazio', 
+              quantidade: 0,
+              descricao: 'Objeto 4',
+			  pedagogica: 2,
+			  tecnica: 2,
+			  acompanhamento: 1,
+              custo: 10
+			  };	
+objeto21 = {  id: 4, 
+              nome: 'Animação de Média Complexidade com audio', 
+			  unidade: 'vazio', 
+              quantidade: 0,
+              descricao: 'Objeto 4',
+			  pedagogica: 2,
+			  tecnica: 2,
+			  acompanhamento: 1,
+              custo: 10
+			  };	
+objeto22 = {  id: 4, 
+              nome: 'Animação de Média Complexidade com audio', 
+			  unidade: 'vazio', 
+              quantidade: 0,
+              descricao: 'Objeto 4',
+			  pedagogica: 2,
+			  tecnica: 2,
+			  acompanhamento: 1,
+              custo: 10
+			  };	
+objeto23 = {  id: 4, 
+              nome: 'Animação de Média Complexidade com audio', 
+			  unidade: 'vazio', 
+              quantidade: 0,
+              descricao: 'Objeto 4',
+			  pedagogica: 2,
+			  tecnica: 2,
+			  acompanhamento: 1,
+              custo: 10
+			  };				  			  			  
+			  
+			  
+	
+		 		  
+			  	  			  
+			  
+			  
 			  
