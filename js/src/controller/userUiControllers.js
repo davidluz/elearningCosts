@@ -11,7 +11,6 @@ setTimeout(ocultaConteudo, 1000);
 }
 
 $(document).ready(function() {
-	
 
 /* Crias as actions para cada botão que adiciona itens */
 $("#botaoAdicionar0").click(function(){
@@ -113,6 +112,8 @@ adicionaItemNoCarrinho(23);
 
 
 function adicionaItemNoCarrinho(objeto){
+	
+	renderizaTabelasDeAtributos();
 	 // Verifica se usuário inseriu um número válido
     if (isNaN(parseInt($("#quantidade"+objeto).val()))){
 	$(".no-add").fadeIn();
@@ -161,13 +162,32 @@ function renderizaResultados(){
 			
 	$("#resumo-do-curso-conteudo").append("<br><h3>Recurso: </h3> "+ objetos[i].nome +"<br><h3>Quantidade: </h3>"+ objetos[i].quantidade +"<br>"+ "<h3>Total:</h3> R$ "+ objetos[i].quantidade*objetos[i].custo+"<br>");
 			console.log('renderizou um resultado');
-			}
-	
+		}
+		}
 }
 
-			
-	
-	
+function renderizaTabelasDeAtributos(){
+var n = 0;
+for (n=0; n<=objetos.length; n++){
+
+$("#atributos-conteudo"+n).eq(0).find('td').eq(0).append(objetos[1].tecnica);
+$("#atributos-conteudo"+n).eq(0).find('td').eq(2).append(objetos[1].pedagogica);
+$("#atributos-conteudo"+n).eq(0).find('td').eq(4).append(objetos[1].acompanhamento);
+$("#atributos-conteudo"+n).eq(0).find('td').eq(6).append(objetos[1].visual);
+$("#atributos-conteudo"+n).eq(0).find('td').eq(8).append(objetos[1].textual);
+$("#atributos-conteudo"+n).eq(0).find('td').eq(10).append(objetos[1].social);
+$("#atributos-conteudo"+n).eq(0).find('td').eq(12).append(objetos[1].interativo);
+$("#atributos-conteudo"+n).eq(0).find('td').eq(14).append(objetos[1].custo);
+$("#atributos-conteudo"+n).eq(0).find('td').eq(16).append(objetos[1].unidade);
+
 }
+
+
+
+
+}
+
+// Função responsável por redenrizar os atributos de todos os objetos do cardápio
+
 	
 
