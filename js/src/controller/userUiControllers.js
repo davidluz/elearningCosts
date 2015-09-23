@@ -138,7 +138,7 @@ function modificaQuantidadeDeObjeto(objetoID, quantidade){
 	var objetoID = objetoID;
 	var quantidade = quantidade;
     
-	objetos[objetoID].quantidade = objetos[objetoID].quantidade + quantidade;
+	objetos[objetoID].quantidade = parseInt(objetos[objetoID].quantidade + quantidade);
 		
 }
 
@@ -154,14 +154,15 @@ function debugDoSistema(){
 }
 
 function renderizaResultados(){
+console.log(objetos[0].quantidade);
 	$("#resumo-do-curso-conteudo").empty();
 	// Verifica se quantidade do recurso é maior que 0, se sim, imprime na tela
 		for(var i=0; i<objetos.length; i++){
-		
+		console.log('renderizou um resultado');
 		if ((objetos[i]).quantidade>0){
 			
-	$("#resumo-do-curso-conteudo").append("<br><h3>Recurso: </h3> "+ objetos[i].nome +"<br><h3>Quantidade: </h3>"+ objetos[i].quantidade +"<br>"+ "<h3>Total:</h3> R$ "+ objetos[i].quantidade*objetos[i].custo+"<br>");
-			console.log('renderizou um resultado');
+	$("#resumo-do-curso-conteudo").append("<br><h3>Recurso: </h3> "+ objetos[i].nome +"<br><h3>Quantidade: </h3>"+ objetos[i].quantidade +"<br>"+ "<h3>Total:</h3> R$ "+ (objetos[i].quantidade * objetos[i].custo) +"<br>");
+			
 		}
 		}
 }

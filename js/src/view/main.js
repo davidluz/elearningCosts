@@ -1,9 +1,8 @@
 var objetos = [];
-
 var valorTotal = 0;
 
 $(document).ready(function() {
-		
+	
 		
 		$(".fancybox").fancybox({	
 		   // Se não setar o aoSize o tamanho não funciona
@@ -68,7 +67,7 @@ $(document).ready(function() {
 				 $("#22-2").html('<a class="fancybox" href="#conteudo21"><img src="img/icons/21.png" class="transparente"></a> ');
 				 $("#23-2").html('<a class="fancybox" href="#conteudo22"><img src="img/icons/22.png" class="transparente"></a> ');
 
-criaObjetos();
+criaObjetos();	
 colocaObjetosNoArrayObjetos();
 guardaObjetosNoStorage();
 recuperaObjetosNoStorage();

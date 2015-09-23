@@ -1,6 +1,7 @@
 function criaObjetos(){
 var arrayRecebido = [
     {
+      "id": "0",
       "nome": "Tela Simples",
       "descricao": "vazio",
       "unidade": "unidade",
@@ -11,9 +12,13 @@ var arrayRecebido = [
       "acompanhamento": "1",
       "visual": "1",
       "textual": "1",
-      "interativo": "1", "social": "1"
+      "interativo": "1",
+      "profissinais": "vazio",
+      "quantidade": "0",
+      "tempo": "1"
     },
     {
+      "id": "1",
       "nome": "Tela Dinamica",
       "descricao": "vazio",
       "unidade": "unidade",
@@ -24,9 +29,13 @@ var arrayRecebido = [
       "acompanhamento": "1",
       "visual": "1",
       "textual": "1",
-      "interativo": "1", "social": "1"
+      "interativo": "1",
+      "profissinais": "vazio",
+      "quantidade": "0",
+      "tempo": "1"
     },
     {
+      "id": "2",
       "nome": "Animação de baixa Complexidade",
       "descricao": "vazio",
       "unidade": "unidade",
@@ -37,9 +46,13 @@ var arrayRecebido = [
       "acompanhamento": "1",
       "visual": "1",
       "textual": "1",
-      "interativo": "1", "social": "1"
+      "interativo": "1",
+      "profissinais": "vazio",
+      "quantidade": "0",
+      "tempo": "1"
     },
     {
+      "id": "3",
       "nome": "Animação de media complexidade",
       "descricao": "vazio",
       "unidade": "unidade",
@@ -50,9 +63,13 @@ var arrayRecebido = [
       "acompanhamento": "1",
       "visual": "1",
       "textual": "1",
-      "interativo": "1", "social": "1"
+      "interativo": "1",
+      "profissinais": "vazio",
+      "quantidade": "0",
+      "tempo": "1"
     },
     {
+      "id": "4",
       "nome": "Animação de media complexidade com audio",
       "descricao": "vazio",
       "unidade": "unidade",
@@ -63,9 +80,13 @@ var arrayRecebido = [
       "acompanhamento": "1",
       "visual": "1",
       "textual": "1",
-      "interativo": "1", "social": "1"
+      "interativo": "1",
+      "profissinais": "vazio",
+      "quantidade": "0",
+      "tempo": "1"
     },
     {
+      "id": "5",
       "nome": "Animação de alta complexidade",
       "descricao": "vazio",
       "unidade": "unidade",
@@ -76,9 +97,13 @@ var arrayRecebido = [
       "acompanhamento": "1",
       "visual": "1",
       "textual": "1",
-      "interativo": "1", "social": "1"
+      "interativo": "1",
+      "profissinais": "vazio",
+      "quantidade": "0",
+      "tempo": "1"
     },
     {
+      "id": "6",
       "nome": "Ilustração de Baixa Complexidade",
       "descricao": "vazio",
       "unidade": "unidade",
@@ -89,9 +114,13 @@ var arrayRecebido = [
       "acompanhamento": "1",
       "visual": "1",
       "textual": "1",
-      "interativo": "1", "social": "1"
+      "interativo": "1",
+      "profissinais": "vazio",
+      "quantidade": "0",
+      "tempo": "1"
     },
     {
+      "id": "7",
       "nome": "Ilustração de Média Complexidade",
       "descricao": "vazio",
       "unidade": "unidade",
@@ -102,9 +131,13 @@ var arrayRecebido = [
       "acompanhamento": "1",
       "visual": "1",
       "textual": "1",
-      "interativo": "1", "social": "1"
+      "interativo": "1",
+      "profissinais": "vazio",
+      "quantidade": "0",
+      "tempo": "1"
     },
     {
+      "id": "8",
       "nome": "Ilustração de Alta Complexidade",
       "descricao": "vazio",
       "unidade": "unidade",
@@ -115,9 +148,13 @@ var arrayRecebido = [
       "acompanhamento": "1",
       "visual": "1",
       "textual": "1",
-      "interativo": "1", "social": "1"
+      "interativo": "1",
+      "profissinais": "vazio",
+      "quantidade": "0",
+      "tempo": "1"
     },
     {
+      "id": "9",
       "nome": "História em Quadrinhos",
       "descricao": "vazio",
       "unidade": "Pagina com 10 quadros",
@@ -128,9 +165,13 @@ var arrayRecebido = [
       "acompanhamento": "1",
       "visual": "1",
       "textual": "1",
-      "interativo": "1", "social": "1"
+      "interativo": "1",
+      "profissinais": "vazio",
+      "quantidade": "0",
+      "tempo": "1"
     },
     {
+      "id": "10",
       "nome": "Projeto Gráfico por curso",
       "descricao": "vazio",
       "unidade": "unidade de projeto",
@@ -141,9 +182,13 @@ var arrayRecebido = [
       "acompanhamento": "1",
       "visual": "1",
       "textual": "1",
-      "interativo": "1", "social": "1"
+      "interativo": "1",
+      "profissinais": "vazio",
+      "quantidade": "0",
+      "tempo": "1"
     },
     {
+      "id": "11",
       "nome": "Tratamento de Imagens",
       "descricao": "vazio",
       "unidade": "unidade",
@@ -154,9 +199,13 @@ var arrayRecebido = [
       "acompanhamento": "1",
       "visual": "1",
       "textual": "1",
-      "interativo": "1", "social": "1"
+      "interativo": "1",
+      "profissinais": "vazio",
+      "quantidade": "0",
+      "tempo": "1"
     },
     {
+      "id": "12",
       "nome": "Personagem de baixa complexidade",
       "descricao": "vazio",
       "unidade": "unidade",
@@ -167,9 +216,13 @@ var arrayRecebido = [
       "acompanhamento": "1",
       "visual": "1",
       "textual": "1",
-      "interativo": "1", "social": "1"
+      "interativo": "1",
+      "profissinais": "vazio",
+      "quantidade": "0",
+      "tempo": "1"
     },
     {
+      "id": "13",
       "nome": "Personagem de media complexidade",
       "descricao": "vazio",
       "unidade": "unidade",
@@ -180,9 +233,13 @@ var arrayRecebido = [
       "acompanhamento": "1",
       "visual": "1",
       "textual": "1",
-      "interativo": "1", "social": "1"
+      "interativo": "1",
+      "profissinais": "vazio",
+      "quantidade": "0",
+      "tempo": "1"
     },
     {
+      "id": "14",
       "nome": "Personagem de media complexidade com audio",
       "descricao": "vazio",
       "unidade": "unidade",
@@ -193,9 +250,13 @@ var arrayRecebido = [
       "acompanhamento": "1",
       "visual": "1",
       "textual": "1",
-      "interativo": "1", "social": "1"
+      "interativo": "1",
+      "profissinais": "vazio",
+      "quantidade": "0",
+      "tempo": "1"
     },
     {
+      "id": "15",
       "nome": "Personagem de alta complexidade",
       "descricao": "vazio",
       "unidade": "unidade",
@@ -206,9 +267,13 @@ var arrayRecebido = [
       "acompanhamento": "1",
       "visual": "1",
       "textual": "1",
-      "interativo": "1", "social": "1"
+      "interativo": "1",
+      "profissinais": "vazio",
+      "quantidade": "0",
+      "tempo": "1"
     },
     {
+      "id": "16",
       "nome": "Jogo pedagógico para exercicos e avaliacao de baixa complexidade",
       "descricao": "vazio",
       "unidade": "unidade",
@@ -219,9 +284,13 @@ var arrayRecebido = [
       "acompanhamento": "1",
       "visual": "1",
       "textual": "1",
-      "interativo": "1", "social": "1"
+      "interativo": "1",
+      "profissinais": "vazio",
+      "quantidade": "0",
+      "tempo": "1"
     },
     {
+      "id": "17",
       "nome": "Jogo pedagógico para exercicios e avaliacoes de media complexidade",
       "descricao": "vazio",
       "unidade": "unidade",
@@ -232,9 +301,13 @@ var arrayRecebido = [
       "acompanhamento": "1",
       "visual": "1",
       "textual": "1",
-      "interativo": "1", "social": "1"
+      "interativo": "1",
+      "profissinais": "vazio",
+      "quantidade": "0",
+      "tempo": "1"
     },
     {
+      "id": "18",
       "nome": "Jogo pedagógico com locucao para exercicios e avaliacoes",
       "descricao": "vazio",
       "unidade": "unidade",
@@ -245,9 +318,13 @@ var arrayRecebido = [
       "acompanhamento": "1",
       "visual": "1",
       "textual": "1",
-      "interativo": "1", "social": "1"
+      "interativo": "1",
+      "profissinais": "vazio",
+      "quantidade": "0",
+      "tempo": "1"
     },
     {
+      "id": "19",
       "nome": "Desenvolvimento de cenário 3D",
       "descricao": "vazio",
       "unidade": "unidade",
@@ -258,9 +335,13 @@ var arrayRecebido = [
       "acompanhamento": "1",
       "visual": "1",
       "textual": "1",
-      "interativo": "1", "social": "1"
+      "interativo": "1",
+      "profissinais": "vazio",
+      "quantidade": "0",
+      "tempo": "1"
     },
     {
+      "id": "20",
       "nome": "Demonstrativo de curso – curta duração",
       "descricao": "vazio",
       "unidade": "unidade",
@@ -271,9 +352,13 @@ var arrayRecebido = [
       "acompanhamento": "1",
       "visual": "1",
       "textual": "1",
-      "interativo": "1", "social": "1"
+      "interativo": "1",
+      "profissinais": "vazio",
+      "quantidade": "0",
+      "tempo": "1"
     },
     {
+      "id": "21",
       "nome": "Demonstrativo de curso",
       "descricao": "vazio",
       "unidade": "unidade",
@@ -284,9 +369,13 @@ var arrayRecebido = [
       "acompanhamento": "1",
       "visual": "1",
       "textual": "1",
-      "interativo": "1", "social": "1"
+      "interativo": "1",
+      "profissinais": "vazio",
+      "quantidade": "0",
+      "tempo": "1"
     },
     {
+      "id": "22",
       "nome": "Captura de imagens",
       "descricao": "vazio",
       "unidade": "unidade",
@@ -297,9 +386,13 @@ var arrayRecebido = [
       "acompanhamento": "1",
       "visual": "1",
       "textual": "1",
-      "interativo": "1", "social": "1"
+      "interativo": "1",
+      "profissinais": "vazio",
+      "quantidade": "0",
+      "tempo": "1"
     },
     {
+      "id": "23",
       "nome": "Locução",
       "descricao": "vazio",
       "unidade": "lauda",
@@ -310,9 +403,13 @@ var arrayRecebido = [
       "acompanhamento": "1",
       "visual": "1",
       "textual": "1",
-      "interativo": "1", "social": "1"
+      "interativo": "1",
+      "profissinais": "vazio",
+      "quantidade": "0",
+      "tempo": "1"
     },
     {
+      "id": "24",
       "nome": "Locução em outro idioma",
       "descricao": "vazio",
       "unidade": "lauda",
@@ -323,9 +420,13 @@ var arrayRecebido = [
       "acompanhamento": "1",
       "visual": "1",
       "textual": "1",
-      "interativo": "1", "social": "1"
+      "interativo": "1",
+      "profissinais": "vazio",
+      "quantidade": "0",
+      "tempo": "1"
     },
     {
+      "id": "25",
       "nome": "Efeito Sonoro",
       "descricao": "vazio",
       "unidade": "unidade",
@@ -336,9 +437,13 @@ var arrayRecebido = [
       "acompanhamento": "1",
       "visual": "1",
       "textual": "1",
-      "interativo": "1", "social": "1"
+      "interativo": "1",
+      "profissinais": "vazio",
+      "quantidade": "0",
+      "tempo": "1"
     },
     {
+      "id": "26",
       "nome": "Produção CD Rom / DVD Rom",
       "descricao": "vazio",
       "unidade": "unidade",
@@ -349,9 +454,13 @@ var arrayRecebido = [
       "acompanhamento": "1",
       "visual": "1",
       "textual": "1",
-      "interativo": "1", "social": "1"
+      "interativo": "1",
+      "profissinais": "vazio",
+      "quantidade": "0",
+      "tempo": "1"
     },
     {
+      "id": "27",
       "nome": "Programação SCORM",
       "descricao": "vazio",
       "unidade": "unidade",
@@ -362,9 +471,13 @@ var arrayRecebido = [
       "acompanhamento": "1",
       "visual": "1",
       "textual": "1",
-      "interativo": "1", "social": "1"
+      "interativo": "1",
+      "profissinais": "vazio",
+      "quantidade": "0",
+      "tempo": "1"
     },
     {
+      "id": "28",
       "nome": "Produção de Video",
       "descricao": "vazio",
       "unidade": "minuto de video finalizado",
@@ -375,9 +488,13 @@ var arrayRecebido = [
       "acompanhamento": "1",
       "visual": "1",
       "textual": "1",
-      "interativo": "1", "social": "1"
+      "interativo": "1",
+      "profissinais": "vazio",
+      "quantidade": "0",
+      "tempo": "1"
     },
     {
+      "id": "29",
       "nome": "Especialista no Desenvolvimento de aplicativos móveis",
       "descricao": "vazio",
       "unidade": "hora",
@@ -388,9 +505,13 @@ var arrayRecebido = [
       "acompanhamento": "1",
       "visual": "1",
       "textual": "1",
-      "interativo": "1", "social": "1"
+      "interativo": "1",
+      "profissinais": "vazio",
+      "quantidade": "0",
+      "tempo": "1"
     },
     {
+      "id": "30",
       "nome": "Especialista em Desenvolvimento de Games",
       "descricao": "vazio",
       "unidade": "hora",
@@ -401,9 +522,13 @@ var arrayRecebido = [
       "acompanhamento": "1",
       "visual": "1",
       "textual": "1",
-      "interativo": "1", "social": "1"
+      "interativo": "1",
+      "profissinais": "vazio",
+      "quantidade": "0",
+      "tempo": "1"
     },
     {
+      "id": "31",
       "nome": "Acompanhamento do projeto (reuniao com ate 6 horas)",
       "descricao": "vazio",
       "unidade": "hora",
@@ -414,9 +539,13 @@ var arrayRecebido = [
       "acompanhamento": "1",
       "visual": "1",
       "textual": "1",
-      "interativo": "1", "social": "1"
+      "interativo": "1",
+      "profissinais": "vazio",
+      "quantidade": "0",
+      "tempo": "1"
     },
     {
+      "id": "32",
       "nome": "Workshop para desenvolvimento de modelagem(duracao 5 horas)",
       "descricao": "vazio",
       "unidade": "hora",
@@ -427,9 +556,13 @@ var arrayRecebido = [
       "acompanhamento": "1",
       "visual": "1",
       "textual": "1",
-      "interativo": "1", "social": "1"
+      "interativo": "1",
+      "profissinais": "vazio",
+      "quantidade": "0",
+      "tempo": "1"
     },
     {
+      "id": "33",
       "nome": "Atualização de conteudo educacional (ja desenvolvido)",
       "descricao": "vazio",
       "unidade": "hora",
@@ -440,9 +573,13 @@ var arrayRecebido = [
       "acompanhamento": "1",
       "visual": "1",
       "textual": "1",
-      "interativo": "1", "social": "1"
+      "interativo": "1",
+      "profissinais": "vazio",
+      "quantidade": "0",
+      "tempo": "1"
     },
     {
+      "id": "34",
       "nome": "Especialista em Ambientes Virtuais de Aprendizagem",
       "descricao": "vazio",
       "unidade": "hora",
@@ -453,9 +590,13 @@ var arrayRecebido = [
       "acompanhamento": "1",
       "visual": "1",
       "textual": "1",
-      "interativo": "1", "social": "1"
+      "interativo": "1",
+      "profissinais": "vazio",
+      "quantidade": "0",
+      "tempo": "1"
     },
     {
+      "id": "35",
       "nome": "Tutoria de baixa Complexidade",
       "descricao": "vazio",
       "unidade": "hora",
@@ -466,9 +607,13 @@ var arrayRecebido = [
       "acompanhamento": "1",
       "visual": "1",
       "textual": "1",
-      "interativo": "1", "social": "1"
+      "interativo": "1",
+      "profissinais": "vazio",
+      "quantidade": "0",
+      "tempo": "1"
     },
     {
+      "id": "36",
       "nome": "Tutoria de Media Complexidade",
       "descricao": "vazio",
       "unidade": "hora",
@@ -479,9 +624,13 @@ var arrayRecebido = [
       "acompanhamento": "1",
       "visual": "1",
       "textual": "1",
-      "interativo": "1", "social": "1"
+      "interativo": "1",
+      "profissinais": "vazio",
+      "quantidade": "0",
+      "tempo": "1"
     },
     {
+      "id": "37",
       "nome": "Tutoria de Alta Complexidade",
       "descricao": "vazio",
       "unidade": "hora",
@@ -492,9 +641,13 @@ var arrayRecebido = [
       "acompanhamento": "1",
       "visual": "1",
       "textual": "1",
-      "interativo": "1", "social": "1"
+      "interativo": "1",
+      "profissinais": "vazio",
+      "quantidade": "0",
+      "tempo": "1"
     },
     {
+      "id": "38",
       "nome": "Diagramação",
       "descricao": "vazio",
       "unidade": "lauda",
@@ -505,9 +658,13 @@ var arrayRecebido = [
       "acompanhamento": "1",
       "visual": "1",
       "textual": "1",
-      "interativo": "1", "social": "1"
+      "interativo": "1",
+      "profissinais": "vazio",
+      "quantidade": "0",
+      "tempo": "1"
     },
     {
+      "id": "39",
       "nome": "Digitação de Textos",
       "descricao": "vazio",
       "unidade": "lauda",
@@ -518,9 +675,13 @@ var arrayRecebido = [
       "acompanhamento": "1",
       "visual": "1",
       "textual": "1",
-      "interativo": "1", "social": "1"
+      "interativo": "1",
+      "profissinais": "vazio",
+      "quantidade": "0",
+      "tempo": "1"
     },
     {
+      "id": "40",
       "nome": "Escaneamento de Elementos",
       "descricao": "vazio",
       "unidade": "lauda",
@@ -531,9 +692,13 @@ var arrayRecebido = [
       "acompanhamento": "1",
       "visual": "1",
       "textual": "1",
-      "interativo": "1", "social": "1"
+      "interativo": "1",
+      "profissinais": "vazio",
+      "quantidade": "0",
+      "tempo": "1"
     },
     {
+      "id": "41",
       "nome": "Revisao técnica",
       "descricao": "vazio",
       "unidade": "lauda",
@@ -544,9 +709,13 @@ var arrayRecebido = [
       "acompanhamento": "1",
       "visual": "1",
       "textual": "1",
-      "interativo": "1", "social": "1"
+      "interativo": "1",
+      "profissinais": "vazio",
+      "quantidade": "0",
+      "tempo": "1"
     },
     {
+      "id": "42",
       "nome": "Revisão gramatical",
       "descricao": "vazio",
       "unidade": "lauda",
@@ -557,9 +726,13 @@ var arrayRecebido = [
       "acompanhamento": "1",
       "visual": "1",
       "textual": "1",
-      "interativo": "1", "social": "1"
+      "interativo": "1",
+      "profissinais": "vazio",
+      "quantidade": "0",
+      "tempo": "1"
     },
     {
+      "id": "43",
       "nome": "Desenho Instrucional",
       "descricao": "vazio",
       "unidade": "lauda",
@@ -570,9 +743,13 @@ var arrayRecebido = [
       "acompanhamento": "1",
       "visual": "1",
       "textual": "1",
-      "interativo": "1", "social": "1"
+      "interativo": "1",
+      "profissinais": "vazio",
+      "quantidade": "0",
+      "tempo": "1"
     },
     {
+      "id": "44",
       "nome": "Análise e Relatorio Contextual",
       "descricao": "vazio",
       "unidade": "lauda",
@@ -583,9 +760,13 @@ var arrayRecebido = [
       "acompanhamento": "1",
       "visual": "1",
       "textual": "1",
-      "interativo": "1", "social": "1"
+      "interativo": "1",
+      "profissinais": "vazio",
+      "quantidade": "0",
+      "tempo": "1"
     },
     {
+      "id": "45",
       "nome": "Tradução de Conteudos",
       "descricao": "vazio",
       "unidade": "lauda",
@@ -596,9 +777,13 @@ var arrayRecebido = [
       "acompanhamento": "1",
       "visual": "1",
       "textual": "1",
-      "interativo": "1", "social": "1"
+      "interativo": "1",
+      "profissinais": "vazio",
+      "quantidade": "0",
+      "tempo": "1"
     },
     {
+      "id": "46",
       "nome": "Criação de Roteiros e Storyboards",
       "descricao": "vazio",
       "unidade": "tela",
@@ -609,9 +794,13 @@ var arrayRecebido = [
       "acompanhamento": "1",
       "visual": "1",
       "textual": "1",
-      "interativo": "1", "social": "1"
+      "interativo": "1",
+      "profissinais": "vazio",
+      "quantidade": "0",
+      "tempo": "1"
     },
     {
+      "id": "47",
       "nome": "Storyboard",
       "descricao": "vazio",
       "unidade": "tela",
@@ -622,9 +811,13 @@ var arrayRecebido = [
       "acompanhamento": "1",
       "visual": "1",
       "textual": "1",
-      "interativo": "1", "social": "1"
+      "interativo": "1",
+      "profissinais": "vazio",
+      "quantidade": "0",
+      "tempo": "1"
     },
     {
+      "id": "48",
       "nome": "Desenvolvimento de Conteudos de Baixa Complexidade",
       "descricao": "vazio",
       "unidade": "lauda",
@@ -635,9 +828,13 @@ var arrayRecebido = [
       "acompanhamento": "1",
       "visual": "1",
       "textual": "1",
-      "interativo": "1", "social": "1"
+      "interativo": "1",
+      "profissinais": "vazio",
+      "quantidade": "0",
+      "tempo": "1"
     },
     {
+      "id": "49",
       "nome": "Desenvolvimento de Conteudos de Média Complexidade",
       "descricao": "vazio",
       "unidade": "lauda",
@@ -648,9 +845,13 @@ var arrayRecebido = [
       "acompanhamento": "1",
       "visual": "1",
       "textual": "1",
-      "interativo": "1", "social": "1"
+      "interativo": "1",
+      "profissinais": "vazio",
+      "quantidade": "0",
+      "tempo": "1"
     },
     {
+      "id": "50",
       "nome": "Desenvolvimento de Conteudos de Alta Complexidade",
       "descricao": "vazio",
       "unidade": "lauda",
@@ -661,17 +862,37 @@ var arrayRecebido = [
       "acompanhamento": "1",
       "visual": "1",
       "textual": "1",
-      "interativo": "1", "social": "1"
+      "interativo": "1",
+      "profissinais": "vazio",
+      "quantidade": "0",
+      "tempo": "1"
     }
   ];
   
+//converterStringsDosObjetosEmInteiros
+for(var i2=0; i<=arrayRecebido.length; i++){
+		
+		arrayRecebido[i].id = parseInt (arrayRecebido[i].id);
+		arrayRecebido[i].custo = parseInt (arrayRecebido[i].custo);
+		arrayRecebido[i].tecnica = parseInt (arrayRecebido[i].tecnica);
+		arrayRecebido[i].pedagogica = parseInt (arrayRecebido[i].pedagogica);
+		arrayRecebido[i].acompanhamento = parseInt (arrayRecebido[i].acompanhamento);
+		arrayRecebido[i].visual = parseInt (arrayRecebido[i].visual);
+		arrayRecebido[i].textual = parseInt (arrayRecebido[i].textual);
+		arrayRecebido[i].interativo = parseInt (arrayRecebido[i].interativo);
+		arrayRecebido[i].quantidade = parseInt (arrayRecebido[i].quantidade);
+		arrayRecebido[i].tempo = parseInt (arrayRecebido[i].tempo);
+		
+ 	}
+
  
  //Clona os objetos do Array Recebido e coloca no Objetos 
 for(var i=0; i<=arrayRecebido.length; i++){
 	var stringFormatada = "objeto"+i;
 	this[stringFormatada]= arrayRecebido[i];
-	
 }
+
+
 }
 
 
