@@ -12,6 +12,11 @@ setTimeout(ocultaConteudo, 1000);
 
 $(document).ready(function() {
 
+//Botões responsável por adicionar e remover itens na tela de resumo do curso
+
+
+
+
 /* Crias as actions para cada botão que adiciona itens */
 $("#botaoAdicionar0").click(function(){
 adicionaItemNoCarrinho(0);
@@ -161,11 +166,14 @@ console.log(objetos[0].quantidade);
 		console.log('renderizou um resultado');
 		if ((objetos[i]).quantidade>0){
 			
-	$("#resumo-do-curso-conteudo").append("<br><h3>Recurso: </h3> "+ objetos[i].nome +"<br><h3>Quantidade: </h3>"+ objetos[i].quantidade +"<br>"+ "<h3>Total:</h3> R$ "+ (objetos[i].quantidade * objetos[i].custo) +"<br>");
+	$("#resumo-do-curso-conteudo").append("<br><h3>Recurso: </h3> "+ objetos[i].nome +"<br><h3>Valor unitário:</h3> R$"+ objetos[i].custo+"<br><h3>Quantidade: </h3>"+ objetos[i].quantidade +"<br>"+ "<h3>Total:</h3> R$ "+ (objetos[i].quantidade * objetos[i].custo) +"<br><button id=btn-remove"+i+">-</button><br><br><br>");
 			
 		}
 		}
 }
+
+
+
 
 function renderizaTabelasDeAtributos(){
 var n = 0;
@@ -178,17 +186,31 @@ $("#atributos-conteudo"+n).eq(0).find('td').eq(6).append(" "+objetos[1].visual);
 $("#atributos-conteudo"+n).eq(0).find('td').eq(8).append(" "+objetos[1].textual);
 $("#atributos-conteudo"+n).eq(0).find('td').eq(10).append(" "+objetos[1].social);
 $("#atributos-conteudo"+n).eq(0).find('td').eq(12).append(" "+objetos[1].interativo);
-$("#atributos-conteudo"+n).eq(0).find('td').eq(14).append(" "+objetos[1].custo);
+$("#atributos-conteudo"+n).eq(0).find('td').eq(14).append(" "+"R$"+ objetos[1].custo);
 $("#atributos-conteudo"+n).eq(0).find('td').eq(16).append(" "+objetos[1].unidade);
 
 }
 
 
-
+$("#estimar").click(function(e) {
+    $("#home").hide();
+	$.fancybox.close();
+	$("#tela-final").fadeIn();
+});
 
 }
+
+
+
+
 
 // Função responsável por redenrizar os atributos de todos os objetos do cardápio
 
 	
+// Remover itens do carrinho
+
+
+
+
+
 
