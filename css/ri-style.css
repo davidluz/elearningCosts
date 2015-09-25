@@ -165,7 +165,7 @@ margin-left: 50%;
 
 }
 a{
-color: white;	
+
 }
 
 #btn_atualizar{
@@ -245,4 +245,24 @@ z-index: 6;
 
 #detalhamento-conteudos{
 margin-left: 10%;	
+}
+
+#home{
+display: none;	
+}
+
+#opc-1{
+	vertical-align: central;
+
+}
+#opc-2{
+	vertical-align: central;
+}
+
+#opcs{
+  
+}
+
+.credits{
+	margin-top: 90%;	
 }
