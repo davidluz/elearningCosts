@@ -193,7 +193,9 @@ $("#atributos-conteudo"+n).eq(0).find('td').eq(16).append(" "+objetos[1].unidade
 
 
 $("#estimar").click(function(e) {
-    $("#home").hide();
+    $("#home-simulador").hide();
+	  $("#home-cardapio").hide();
+	  $("#home-home").hide();
 	$.fancybox.close();
 	$("#tela-final").fadeIn();
 });
