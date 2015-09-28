@@ -209,7 +209,7 @@ position:fixed; bottom:2%; right:2%;
 }
 
 #voltar-button{
-	position:fixed; bottom:2%; left:2%; 
+	position:fixed; bottom:2%; right:2%; 
 }
 #logo{
 left: 10%;
@@ -276,5 +276,15 @@ display: block;
 }
 
 #home-simulador{
-display: block;
+display: none;
+}
+
+#dados-principais{
+margin-left: 5%;	
+}
+
+.form-basic{
+	width: 50%;
+	height: auto;
+	 	
 }
