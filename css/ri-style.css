@@ -285,6 +285,10 @@ margin-left: 5%;
 
 .form-basic{
 	width: 50%;
-	height: auto;
-	 	
+	height: auto;	
+}
+.float-btn{
+float:left;
+margin-left: 10px;
+
 }

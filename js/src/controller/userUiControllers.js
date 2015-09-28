@@ -166,7 +166,7 @@ console.log(objetos[0].quantidade);
 		console.log('renderizou um resultado');
 		if ((objetos[i]).quantidade>0){
 			
-	$("#resumo-do-curso-conteudo").append("<br><h3>Recurso: </h3> "+ objetos[i].nome +"<br><h3>Valor unitário:</h3> R$"+ objetos[i].custo+"<br><h3>Quantidade: </h3>"+ objetos[i].quantidade +"<br>"+ "<h3>Total:</h3> R$ "+ (objetos[i].quantidade * objetos[i].custo) +"<br><button id=btn-remove"+i+">-</button><br><br><br>");
+	$("#resumo-do-curso-conteudo").append("<br><h3>Recurso: </h3> "+ objetos[i].nome +"<br><h3>Valor unitário:</h3> R$"+ objetos[i].custo+"<br><h3>Quantidade: </h3>"+ objetos[i].quantidade +"<br>"+ "<h3>Total:</h3> R$ "+ (objetos[i].quantidade * objetos[i].custo) +"<br><button id=btn-remove"+i+">Excluir</button><br><br><br>");
 			
 		}
 		}
@@ -200,7 +200,21 @@ $("#estimar").click(function(e) {
 	$("#tela-final").fadeIn();
 });
 
+
+$("#avancar1").click(function(e) {
+	console.log('teste');
+     $("#tela1").hide();
+	  $("html, body").animate({ scrollTop: 0 }, "slow");
+	 $("#home-simulador").fadeIn();
+	$("#voltar-button").hide();
+	 
+});
+
 }
+
+
+
+
 
 
 

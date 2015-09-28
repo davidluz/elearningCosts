@@ -33,43 +33,48 @@
 <div id="tela1">
 <center><h1>Informações básicas</h1></center>
 <form id="dados-principais">
- <strong><p>I - INFORMAÇÕES GERAIS SOBRE O PROJETO DO CURSO </p></strong>
-  Cliente:<br>
+ <strong><p>I - INFORMAÇÕES SOBRE O CURSO </p></strong>
+  Nome:<br>
   <input type="text" name="firstname" class="form-basic">
   <br>
-  Curso:<br>
+  Objetivo:<br>
   <input type="text" name="lastname" min="0" class="form-basic"><br>
   Carga horária (horas):<br>
   <input type="number" value="0"><br>
-  
-   Objetivo:<br>
-  <input type="text" name="lastname" class="form-basic"><br>
-    Principais órgãos, instituições e outros atores envolvidos no projeto:<br>
-  <input type="text" name="lastname" class="form-basic"><br>
- 
-  
+    
    Quantidade de participantes:<br>
-  <input type="text" name="lastname" class="form-basic"><br>
-  Valor do curso no plano de carreira dos participantes:<br>
-  <input type="text" name="lastname" class="form-basic"><br>
-  
-   Área de conhecimento do projeto :<br>
-  <input type="text" name="firstname" class="form-basic">
-  <br> Cenário /histórico do projeto :<br>
-  <input type="text" name="firstname" class="form-basic">
-  <br>
-  
-  
+  <input name="lastname" type="text" class="form-basic"><br>
+    
    Tipo de formação:<br>
   <input type="text" name="lastname" class="form-basic"><br><br>
   
    Previsão de período de realização: <br>
-  De: <input type="date"> Até: <input type="date">
+  De: <input type="date"> Até: <input type="date"><br><br>
+  
+   AVA previsto (se houver):<br>
+  <input type="text" name="lastname" class="form-basic"><br><br>
+  
+    
+   <p>Formato:</p>
+ <select>
+  <option value="1">Síncrono sem web conferência</option>
+  <option value="2">Síncrono com web conferência</option>
+  <option value="3">Assíncrono</option>
+  </select><br>
+  
+   <p>Tipo de interação com o conteúdo:</p>
+ <select>
+  <option value="1">Auto instrucional - sem suporte pedagógico</option>
+  <option value="2">Auto instrucional - com suporte pedagógico</option>
+  <option value="3">Mediado</option>
+  </select>
+  
+  
   
  <br><br>
   <strong><p>II - INFORMAÇÕES SOBRE O PÚBLICO </p></strong>
    
-   Perfil:<br>
+   Descrição Geral:<br>
    <input type="text" name="lastname" class="form-basic"><br>
    Localização geográfica:<br>
    <input type="text" name="lastname" class="form-basic"><br>
@@ -81,19 +86,48 @@
  <input type="text" name="lastname" class="form-basic"><br>
   Grau do experiência do público com EAD:<br>
   <input type="text" name="lastname" class="form-basic"><br>
-
-   
-   <br>
+ 
+<br><strong> Dispositivos utilizados para o acesso ao curso:</strong><br><br>
+ 
+<input type="checkbox" name="vehicle" value="Bike">Computador de casa<br>
+<input type="checkbox" name="vehicle" value="Car">Computador do trabalho <br>
+<input type="checkbox" name="vehicle" value="Car">Smartphone <br>
+<input type="checkbox" name="vehicle" value="Car">Tablet <br><br>
    <strong><p>II - INFORMAÇÕES SOBRE O CONTEÚDO </p></strong>
-  <button>Enviar</button>
-</form>
+ 
+ 
 
+     
+     
+     Conteúdo programático:<br>
+  <input type="text" name="lastname" class="form-basic"><br>
+  
+   Número de módulos (se houver):<br>
+  <input type="text" name="lastname" class="form-basic"><br>
+  
+    Número de módulos (se houver):<br>
+  <input type="text" name="lastname" class="form-basic"><br>
+  
+   Fontes e materiais a serem utilizados na construção do(s) curso(s):<br>
+  <input type="text" name="lastname" class="form-basic"><br>
+  
+    Responsáveis pela elaboração e/ou indicação dos conteúdos:<br>
+  <input type="text" name="lastname" class="form-basic"><br>
+  
+    Responsáveis pelo acompanhamento da modelagem e validação final das atividades do curso:<br>
+  <input type="text" name="lastname" class="form-basic"><br>
+    
+  <br>
+  
+  
+</form>
+<button id="avancar1" >Avançar</button>
 
 </div>
 
 <a href="index.html" class="fancybox" id="voltar-button"><img src="img/voltar.png"></a>
 <div id="home-simulador">
-<center><h3>Adicione os recursos que serão utilizado em seu curso:</h3></center>
+<center><h1>Adicione os recursos que serão utilizado em seu curso:</h1></center>
 
 <div id="moodle-ri">
 	<div id="body-ri">
@@ -392,9 +426,15 @@ Quantidade: <input type="number" id="quantidade4"  min="0"><br>
    </tr>
   
 </table>
- <center><button>Exportar para PDF</button></center>
- <center><button>Exportar para Excel</button></center>
- <center><button>Imprimir</button></center>
+
+ <center><div id="btns-finais">
+ <button class="float-btn">Exportar para PDF</button>
+<button class="float-btn">Exportar para Excel</button>
+ <button class="float-btn">Imprimir</button>
+ <button class="float-btn">Realizar nova simulação (mesmo curso)</button>
+  <button class="float-btn">Realizar nova simulação (outro curso)</button>
+  </div></center>
+  
 </div>
 
 
