@@ -23,7 +23,7 @@ $(document).ready(function() {
 		
 
 			var temp = "<div class='cell' style='width:{width}px; height: {height}px;'></div>";
-			var w = 210, h = 210, html = '', limitItem = 23;
+			var w = 210, h = 210, html = '', limitItem = 51;
 			for (var i = 0; i < limitItem; ++i) {
 				html += temp.replace(/\{height\}/g, h).replace(/\{width\}/g, w).replace("{index}", i + 1);
 			}
@@ -66,6 +66,35 @@ $(document).ready(function() {
 				 $("#21-2").html('<a class="fancybox" href="#conteudo20"><img src="img/icons/20.png" class="transparente"></a> ');
 				 $("#22-2").html('<a class="fancybox" href="#conteudo21"><img src="img/icons/21.png" class="transparente"></a> ');
 				 $("#23-2").html('<a class="fancybox" href="#conteudo22"><img src="img/icons/22.png" class="transparente"></a> ');
+				 $("#24-2").html('<a class="fancybox" href="#conteudo23"><img src="img/icons/23.png" class="transparente"></a> ');
+				 $("#25-2").html('<a class="fancybox" href="#conteudo24"><img src="img/icons/24.png" class="transparente"></a> ');
+				 $("#26-2").html('<a class="fancybox" href="#conteudo25"><img src="img/icons/25.png" class="transparente"></a> ');
+				 $("#27-2").html('<a class="fancybox" href="#conteudo26"><img src="img/icons/26.png" class="transparente"></a> ');
+				 $("#28-2").html('<a class="fancybox" href="#conteudo27"><img src="img/icons/27.png" class="transparente"></a> ');
+				 $("#29-2").html('<a class="fancybox" href="#conteudo28"><img src="img/icons/28.png" class="transparente"></a> ');
+				 $("#30-2").html('<a class="fancybox" href="#conteudo29"><img src="img/icons/29.png" class="transparente"></a> ');
+				 $("#31-2").html('<a class="fancybox" href="#conteudo30"><img src="img/icons/30.png" class="transparente"></a> ');
+				 $("#32-2").html('<a class="fancybox" href="#conteudo31"><img src="img/icons/31.png" class="transparente"></a> ');
+				 $("#33-2").html('<a class="fancybox" href="#conteudo32"><img src="img/icons/32.png" class="transparente"></a> ');
+				 $("#34-2").html('<a class="fancybox" href="#conteudo33"><img src="img/icons/33.png" class="transparente"></a> ');
+				 $("#35-2").html('<a class="fancybox" href="#conteudo34"><img src="img/icons/34.png" class="transparente"></a> ');
+				 $("#36-2").html('<a class="fancybox" href="#conteudo35"><img src="img/icons/35.png" class="transparente"></a> ');
+				 $("#37-2").html('<a class="fancybox" href="#conteudo36"><img src="img/icons/36.png" class="transparente"></a> ');
+				 $("#38-2").html('<a class="fancybox" href="#conteudo37"><img src="img/icons/37.png" class="transparente"></a> ');
+				 $("#39-2").html('<a class="fancybox" href="#conteudo38"><img src="img/icons/38.png" class="transparente"></a> ');
+				 $("#40-2").html('<a class="fancybox" href="#conteudo39"><img src="img/icons/39.png" class="transparente"></a> ');
+				 $("#41-2").html('<a class="fancybox" href="#conteudo40"><img src="img/icons/40.png" class="transparente"></a> ');
+				 $("#42-2").html('<a class="fancybox" href="#conteudo41"><img src="img/icons/41.png" class="transparente"></a> ');
+				 $("#43-2").html('<a class="fancybox" href="#conteudo42"><img src="img/icons/42.png" class="transparente"></a> ');
+				 $("#44-2").html('<a class="fancybox" href="#conteudo43"><img src="img/icons/43.png" class="transparente"></a> ');
+				 $("#45-2").html('<a class="fancybox" href="#conteudo44"><img src="img/icons/44.png" class="transparente"></a> ');
+				 $("#46-2").html('<a class="fancybox" href="#conteudo45"><img src="img/icons/45.png" class="transparente"></a> ');
+				 $("#47-2").html('<a class="fancybox" href="#conteudo46"><img src="img/icons/46.png" class="transparente"></a> ');
+				 $("#48-2").html('<a class="fancybox" href="#conteudo47"><img src="img/icons/47.png" class="transparente"></a> ');
+				 $("#49-2").html('<a class="fancybox" href="#conteudo48"><img src="img/icons/48.png" class="transparente"></a> ');
+				 $("#50-2").html('<a class="fancybox" href="#conteudo49"><img src="img/icons/49.png" class="transparente"></a> ');
+				 $("#51-2").html('<a class="fancybox" href="#conteudo50"><img src="img/icons/50.png" class="transparente"></a> ');
+				
 
 criaObjetos();	
 colocaObjetosNoArrayObjetos();
