@@ -202,12 +202,11 @@ $("#estimar").click(function(e) {
 
 
 $("#avancar1").click(function(e) {
-	console.log('teste');
      $("#tela1").hide();
 	  $("html, body").animate({ scrollTop: 0 }, "slow");
 	 $("#home-simulador").fadeIn();
 	$("#voltar-button").hide();
-	 
+    $('#image-header').attr('src', 'img/etapas-2.png');
 });
 
 }
