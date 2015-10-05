@@ -33,37 +33,40 @@
 <div id="tela1">
 <center><h1>Informações básicas</h1></center>
 <form id="dados-principais">
- <strong><p>I - INFORMAÇÕES SOBRE O CURSO </p></strong>
-  Nome:<br>
-  <input type="text" name="firstname" class="form-basic">
+ <strong><p>I - INFORMAÇÕES SOBRE O CURSO </p>
+ </strong>
+  Nome completo do curso<br>
+  <input type="text" name="firstname" class="form-basic" id="nome-do-curso">
   <br>
-  Objetivo:<br>
-  <input type="text" name="lastname" min="0" class="form-basic"><br>
-  Carga horária (horas):<br>
-  <input type="number" value="0"><br>
+  Objetivo(s) de aprendizagem<br>
+  <input type="text" name="lastname" min="0" class="form-basic" height="60px" id="objetivos-do-curso"><br>
+  Carga horária (horas)<br>
+  <input type="number" value="0" id="carga-horaria-do-curso"><br>
     
    Quantidade de participantes:<br>
-  <input name="lastname" type="text" class="form-basic"><br>
+  <input type="number"  value="0" id="participantes-do-curso"><br>
     
    Tipo de formação:<br>
-  <input type="text" name="lastname" class="form-basic"><br><br>
+ <select id="formacao-do-curso">
+  <option value="1">Formativo</option>
+  <option value="2">Informativo</option>
+  <option value="3">Técnico(Operacional)</option>
+  </select><br><br>
   
    Previsão de período de realização: <br>
-  De: <input type="date"> Até: <input type="date"><br><br>
+  De: <input type="date" id="data-inicio-do-curso"> Até: <input type="date" id="data-fim-do-curso" ><br>
   
    AVA previsto (se houver):<br>
-  <input type="text" name="lastname" class="form-basic"><br><br>
-  
-    
-   <p>Formato:</p>
- <select>
+  <input type="text" name="lastname" class="form-basic" id="ava-do-curso" ><br>
+  <p>Formato:</p>
+ <select id="formato-do-curso">
   <option value="1">Síncrono sem web conferência</option>
   <option value="2">Síncrono com web conferência</option>
   <option value="3">Assíncrono</option>
   </select><br>
   
    <p>Tipo de interação com o conteúdo:</p>
- <select>
+ <select id="interacao-do-curso">
   <option value="1">Auto instrucional - sem suporte pedagógico</option>
   <option value="2">Auto instrucional - com suporte pedagógico</option>
   <option value="3">Mediado</option>
@@ -75,24 +78,24 @@
   <strong><p>II - INFORMAÇÕES SOBRE O PÚBLICO </p></strong>
    
    Descrição Geral:<br>
-   <input type="text" name="lastname" class="form-basic"><br>
+   <input type="text" name="lastname" class="form-basic" id="descricao-do-publico"><br>
    Localização geográfica:<br>
-   <input type="text" name="lastname" class="form-basic"><br>
+   <input type="text" name="lastname" class="form-basic" id="localizacao-do-publico"><br>
      Disponibilidade para realizar o curso, em horas semanais:<br>
-   <input type="number" value="0"><br>
+   <input type="number" value="0" id="disponibilidade-do-publico"><br>
      Requisitos de acessiblidade:<br>
-   <input type="text" name="lastname" class="form-basic"><br>
+   <input type="text" name="lastname" class="form-basic" id="requisitos-do-publico"><br>
     Grau do experiência do público com informática:<br>
- <input type="text" name="lastname" class="form-basic"><br>
+ <input type="text" name="lastname" class="form-basic" id="experiencia-do-publico"><br>
   Grau do experiência do público com EAD:<br>
-  <input type="text" name="lastname" class="form-basic"><br>
+  <input type="text" name="lastname" class="form-basic" id="disponibilidade-do-publico-ead"><br>
  
 <br><strong> Dispositivos utilizados para o acesso ao curso:</strong><br><br>
  
-<input type="checkbox" name="vehicle" value="Bike">Computador de casa<br>
-<input type="checkbox" name="vehicle" value="Car">Computador do trabalho <br>
-<input type="checkbox" name="vehicle" value="Car">Smartphone <br>
-<input type="checkbox" name="vehicle" value="Car">Tablet <br><br>
+<input type="checkbox" name="vehicle" value="0">Computador de casa<br>
+<input type="checkbox" name="vehicle" value="1">Computador do trabalho <br>
+<input type="checkbox" name="vehicle" value="2">Smartphone <br>
+<input type="checkbox" name="vehicle" value="3">Tablet <br><br>
    <strong><p>II - INFORMAÇÕES SOBRE O CONTEÚDO </p></strong>
  
  
@@ -100,27 +103,27 @@
      
      
      Conteúdo programático:<br>
-  <input type="text" name="lastname" class="form-basic"><br>
+  <input type="text" name="lastname" class="form-basic" height="40px" id="conteudo-programatico"><br>
   
-   Número de módulos (se houver):<br>
-  <input type="text" name="lastname" class="form-basic"><br>
+   Número de módulos previstos (se houver):<br>
+  <input type="number" value="0" id="modulos-do-curso" ><br>
   
    
   
    Fontes e materiais a serem utilizados na construção do(s) curso(s):<br>
-  <input type="text" name="lastname" class="form-basic"><br>
+  <input type="text" name="lastname" class="form-basic" height="40px" id="fontes-de-curso"><br>
   
     Responsáveis pela elaboração e/ou indicação dos conteúdos:<br>
-  <input type="text" name="lastname" class="form-basic"><br>
+  <input type="text" name="lastname" class="form-basic" height="40px" id="responsáveis-do-curso"><br>
   
     Observações:<br>
-  <input type="text" name="lastname" class="form-basic"><br>
+  <input type="text" name="lastname" class="form-basic" height="40px" id="observações-do-curso"><br>
     
   <br>
   
   
 </form>
-<button id="avancar1" >Avançar</button>
+<button id="avancar1" class="btns-avancar" >Avançar</button>
 
 </div>
 
@@ -356,72 +359,72 @@ Quantidade: <input type="number" id="quantidade4"  min="0"><br>
    </tr>
    
    <tr>
-    <td id="td-nome"><span class="detalhamento-titulo">Carga horária:</span></td>
+    <td id="td-carga"><span class="detalhamento-titulo">Carga horária:</span></td>
    </tr>
    
    <tr>
-    <td id="td-nome"><span class="detalhamento-titulo">% Visual: </span></td>
+    <td id="td-visual"><span class="detalhamento-titulo">% Visual: </span></td>
    </tr>
    
    <tr>
-    <td id="td-nome"><span class="detalhamento-titulo">% Textual:</span></td>
+    <td id="td-textual"><span class="detalhamento-titulo">% Textual:</span></td>
    </tr>
    
    <tr>
-    <td id="td-nome"><span class="detalhamento-titulo">% Social:</span></td>
+    <td id="td-social"><span class="detalhamento-titulo">% Social:</span></td>
    </tr>
    
    <tr>
-    <td id="td-nome"><span class="detalhamento-titulo">% Interativo:</span></td>
+    <td id="td-interativo"><span class="detalhamento-titulo">% Interativo:</span></td>
    </tr>
    
    <tr>
-    <td id="td-nome"><span class="detalhamento-titulo">Complexidade técnica:</span></td>
+    <td id="td-tecnica"><span class="detalhamento-titulo">Complexidade técnica:</span></td>
    </tr>
    
    <tr>
-    <td id="td-nome"><span class="detalhamento-titulo">Complexidade pedagógica:</span></td>
+    <td id="td-pedagogica"><span class="detalhamento-titulo">Complexidade pedagógica:</span></td>
    </tr>
    
    <tr>
-    <td id="td-nome"><span class="detalhamento-titulo">Complexidade de acompanhamento:</span></td>
+    <td id="td-acompanhamento"><span class="detalhamento-titulo">Complexidade de acompanhamento:</span></td>
    </tr>
    
    <tr>
-    <td id="td-nome"><span class="detalhamento-titulo">Recursos utilizados:</span></td>
+    <td id="td-recursos"><span class="detalhamento-titulo">Recursos utilizados:</span></td>
    </tr>
    
    <tr>
-    <td id="td-nome"><span class="detalhamento-titulo">Custo total estimado:</span></td>
+    <td id="td-custo"><span class="detalhamento-titulo">Custo total estimado:</span></td>
    </tr>
    
    <tr>
-    <td id="td-nome"><span class="detalhamento-titulo">Quantidade estimada de laudas:</span></td>
+    <td id="td-quantidade"><span class="detalhamento-titulo">Quantidade estimada de laudas:</span></td>
    </tr>
   
   
    <tr>
-    <td id="td-nome"><span class="detalhamento-titulo">Quantidade ideal de imagens:</span></td>
+    <td id="td-imagens-ideal"><span class="detalhamento-titulo">Quantidade ideal de imagens:</span></td>
    </tr>
   
   <tr>
-    <td id="td-nome"><span class="detalhamento-titulo">Quantidade  de imagens incluídas:</span></td>
+    <td id="td-nome-inclusas"><span class="detalhamento-titulo">Quantidade  de imagens incluídas:</span></td>
    </tr>
  
    <tr>
-    <td id="td-nome"><span class="detalhamento-titulo">Tempo estimado de produção:</span></td>
+    <td id="td-tempo"><span class="detalhamento-titulo">Tempo estimado de produção:</span></td>
    </tr>
    
    <tr>
-    <td id="td-nome"><span class="detalhamento-titulo">Profissionais necessários (DI):</span></td>
+    <td id="td-profissionais"><span class="detalhamento-titulo">Profissionais necessários (DI):</span></td>
    </tr>
    
    <tr>
-    <td id="td-nome"><span class="detalhamento-titulo">Profissionais necessários (Tarefas especialistas):</span></td>
+    <td id="td-profissionais-especialistas"><span class="detalhamento-titulo">Profissionais necessários (Tarefas especialistas):</span></td>
    </tr>
    
    <tr>
-    <td id="td-nome"><span class="detalhamento-titulo">Profissionais necessários (Outros):</span></td>
+    <td id="td-profissionais-outros"><span class="detalhamento-titulo">Profissionais necessários (Outros):</span></td>
    </tr>
   
 </table>
