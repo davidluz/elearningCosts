@@ -195,9 +195,9 @@ $("#atributos-conteudo"+n).eq(0).find('td').eq(16).append(" "+objetos[1].unidade
 $("#estimar").click(function(e) {
     $("#home-simulador").hide();
 	  $("#home-cardapio").hide();
-	  $("#home-home").hide();
-	$.fancybox.close();
-	$("#tela-final").fadeIn();
+	 	$.fancybox.close();
+	$("#tela-final-profissionais").fadeIn();
+	$('#image-header').attr('src', 'img/etapas-3.png');
 });
 
 
@@ -208,6 +208,16 @@ $("#avancar1").click(function(e) {
 	$("#voltar-button").hide();
     $('#image-header').attr('src', 'img/etapas-2.png');
 });
+
+$("#finalizar-estimativa").click(function(e) {
+     	$("#tela-final-profissionais").hide();
+		$("#tela-final").fadeIn();
+	
+});
+
+
+
+
 
 }
 
