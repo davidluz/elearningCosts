@@ -152,21 +152,20 @@ function modificaQuantidadeDeObjeto(objetoID, quantidade){
 function debugDoSistema(){
 	var x = 0;
 	while(x<2){
-	console.log(objetos[x].descricao);
-	console.log(objetos[x].quantidade);
+	
 	x = x +1;
 	}
 }
 
 function renderizaResultados(){
-console.log(objetos[0].quantidade);
+
 	$("#resumo-do-curso-conteudo").empty();
 	// Verifica se quantidade do recurso é maior que 0, se sim, imprime na tela
-		for(var i=0; i<objetos.length; i++){
-		console.log('renderizou um resultado');
+		for(var i=0; i<50; i++){
+		
 		if ((objetos[i]).quantidade>0){
 			
-	$("#resumo-do-curso-conteudo").append("<br><h3>Recurso: </h3> "+ objetos[i].nome +"<br><h3>Valor unitário:</h3> R$"+ objetos[i].custo+"<br><h3>Quantidade: </h3>"+ objetos[i].quantidade +"<br>"+ "<h3>Total:</h3> R$ "+ (objetos[i].quantidade * objetos[i].custo) +"<br><button id=btn-remove"+i+">Excluir</button><br><br><br>");
+	$("#resumo-do-curso-conteudo").append("<br><h3>Recurso: </h3> "+ objetos[i].nome +"<br><h3>Valor unitário: R$</h3> <input type='number' min='0' value= "+objetos[i].custo+"></input><br><h3>Quantidade: </h3>  <input type='number' min='0' value= "+objetos[i].quantidade+" ></input> <br>");
 			
 		}
 		}
@@ -177,7 +176,7 @@ console.log(objetos[0].quantidade);
 
 function renderizaTabelasDeAtributos(){
 var n = 0;
-for (n=0; n<=objetos.length; n++){
+for (n=0; n<=50; n++){
 
 $("#atributos-conteudo"+n).eq(0).find('td').eq(0).append(" "+objetos[1].tecnica);
 $("#atributos-conteudo"+n).eq(0).find('td').eq(2).append(" "+objetos[1].pedagogica);
@@ -198,6 +197,7 @@ $("#estimar").click(function(e) {
 	 	$.fancybox.close();
 	$("#tela-final-profissionais").fadeIn();
 	$('#image-header').attr('src', 'img/etapas-3.png');
+	identificaSelecionados();
 });
 
 

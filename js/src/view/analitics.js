@@ -1,12 +1,30 @@
 
 var anlVisual = 0;
+var objetosSelecionados =[];
 // Responsável por realizar as estimativas finais do curso 
 
-    
+
+// A função a baixo já está funcionando! UTILIZAR ELA - TODOS OS OBJETOS SELECIONADOS CHEGAM NESTE ARRAY
+
+// identifca objetos que foram selecionados e colocar em Array ObjetosSelecionados
+function identificaSelecionados(){
+for(var i=0; i<=50; i++){
+if(objetos[i].quantidade > 0){
+objetosSelecionados.push(objetos[i]);
+}
+}	
+
+console.log(objetosSelecionados);	
+
+}
+
+
+
 
 
 //% Visual:
 function gerarVisual(){
+	
 // Necessário substituir todos os <=50 por objetos.length!
 for(var i=0; i<=50; i++){
 	anlVisual = anlVisual+ parseInt(objetos[i].visual);
