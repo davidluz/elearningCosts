@@ -202,6 +202,7 @@ $("#estimar").click(function(e) {
 
 
 $("#avancar1").click(function(e) {
+	gerarVisual();
      $("#tela1").hide();
 	  $("html, body").animate({ scrollTop: 0 }, "slow");
 	 $("#home-simulador").fadeIn();

@@ -941,6 +941,7 @@ for(var i2=0; i<=arrayRecebido.length; i++){
 for(var i=0; i<=arrayRecebido.length; i++){
 	var stringFormatada = "objeto"+i;
 	this[stringFormatada]= arrayRecebido[i];
+	
 }
 
 
@@ -949,6 +950,7 @@ for(var i=0; i<=arrayRecebido.length; i++){
 
 
 function colocaObjetosNoArrayObjetos(){
+	
 objetos.push(objeto0);
 objetos.push(objeto1);
 objetos.push(objeto2);
@@ -973,7 +975,36 @@ objetos.push(objeto20);
 objetos.push(objeto21);
 objetos.push(objeto22);
 objetos.push(objeto23);
+objetos.push(objeto24);
+objetos.push(objeto25);
+objetos.push(objeto26);
+objetos.push(objeto27);
+objetos.push(objeto28);
+objetos.push(objeto29);
+objetos.push(objeto30);
+objetos.push(objeto31);
+objetos.push(objeto32);
+objetos.push(objeto33);
+objetos.push(objeto34);
+objetos.push(objeto35);
+objetos.push(objeto36);
+objetos.push(objeto37);
+objetos.push(objeto38);
+objetos.push(objeto39);
+objetos.push(objeto40);
+objetos.push(objeto41);
+objetos.push(objeto42);
+objetos.push(objeto43);
+objetos.push(objeto44);
+objetos.push(objeto45);
+objetos.push(objeto46);
+objetos.push(objeto47);
+objetos.push(objeto48);
+objetos.push(objeto49);
+objetos.push(objeto50);
+objetos.push(objeto51);
 }
+
 
 
 function guardaObjetosNoStorage(){
@@ -986,8 +1017,9 @@ var objetosRecuperados = localStorage.getItem("objetosSTORAGE");
 var objetosRecuperadosJason = JSON.parse(objetosRecuperados);
 }
 
+// Necessário substituir todos os <=50 por objetos.length!
 function calcultaTotalDoCarrinho(){
-for(var i=0; i<objetos.length; i++){
+for(var i=0; i<50; i++){
 valorTotal = valorTotal+(objetos[i].quantidade)*(objetos[i].custo);
 }
 return(valorTotal);
