@@ -212,10 +212,58 @@ $("#avancar1").click(function(e) {
 $("#finalizar-estimativa").click(function(e) {
      	$("#tela-final-profissionais").hide();
 		$("#tela-final").fadeIn();
+		gerarPaginaFinal();
+		
 	
 });
 
 
+// Função responsável por renderizar a página final
+function gerarPaginaFinal(){
+
+$("#td-nome").append($("#nome-do-curso").val());
+$("#td-carga").append($("#carga-horaria-do-curso").val());
+$("#td-visual").append($("#nome-do-curso").val());
+$("#td-textual").append($("#nome-do-curso").val());
+$("#td-social").append($("#nome-do-curso").val());
+$("#td-tecnica").append($("#nome-do-curso").val());
+$("#td-pedagogica").append($("#nome-do-curso").val());
+$("#td-acompanhamento").append($("#nome-do-curso").val());
+$("#td-recursos").append($("#nome-do-curso").val());
+$("#td-custo").append($("#nome-do-curso").val());
+$("#td-quantidade").append($("#nome-do-curso").val());
+$("#td-imagens-ideal").append($("#nome-do-curso").val());
+$("#td-nome-inclusas").append($("#nome-do-curso").val());
+$("#td-tempo").append($("#nome-do-curso").val());
+$("#td-profissionais").append($("#nome-do-curso").val());
+$("#td-profissionais-especialistas").append($("#nome-do-curso").val());
+$("#td-profissionais-outros").append($("#nome-do-curso").val());
+
+$("#td-objetivo").append($("#objetivos-do-curso").val());
+$("#td-participantes").append($("#participantes-do-curso").val());
+$("#td-formacao").append($("#formacao-do-curso").val());
+$("#td-inicio").append($("#data-inicio-do-curso").val());
+$("#td-fim").append($("#data-fim-do-curso").val());
+$("#td-ava").append($("#ava-do-curso").val());
+$("#td-formato").append($("#nome-do-curso").val());
+$("#td-interacao").append($("#interacao-do-curso").val());
+$("#td-descricao").append($("#descricao-do-publico").val());
+$("#td-localizacao").append($("#localizacao-do-publico").val());
+$("#td-dispPublico").append($("#disponibilidade-do-publico").val());
+$("#td-requisito").append($("#requisitos-do-publico").val());
+$("#td-experiencia").append($("#experiencia-do-publico").val());
+$("#td-disponibilidade").append($("#disponibilidade-do-publico-ead").val());
+$("#td-pc-casa").append($("#pc-de-casa").val());
+$("#td-pc-trabalho").append($("#pc-trabalho").val());
+$("#td-smartphone").append($("#smartphone").val());
+$("#td-tablet").append($("#tablet").val());
+$("#td-programa").append($("#conteudo-programatico").val());
+$("#td-modulos").append($("#nome-do-curso").val());
+$("#td-fonte").append($("#modulos-do-curso").val());
+$("#td-responsaveis").append($("#fontes-de-curso").val());
+$("#td-observacoes").append($("#responsaveis-do-curso").val());
+	
+}
 
 
 
