@@ -7,13 +7,12 @@ var anlVisual = 0;
 
 //% Visual:
 function gerarVisual(){
-
 // Necessário substituir todos os <=50 por objetos.length!
 for(var i=0; i<=50; i++){
-	anlVisual = anlVisual+ parseInt(objetos[i].quantidade);
-	console.log(anlVisual);
-}
+	anlVisual = anlVisual+ parseInt(objetos[i].visual);
 
+	}
+$("#td-visual").append(anlVisual);
 }
 
 //% Textual:
