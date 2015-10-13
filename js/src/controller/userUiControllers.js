@@ -178,15 +178,15 @@ function renderizaTabelasDeAtributos(){
 var n = 0;
 for (n=0; n<=50; n++){
 
-$("#atributos-conteudo"+n).eq(0).find('td').eq(0).append(" "+objetos[1].tecnica);
-$("#atributos-conteudo"+n).eq(0).find('td').eq(2).append(" "+objetos[1].pedagogica);
-$("#atributos-conteudo"+n).eq(0).find('td').eq(4).append(" "+objetos[1].acompanhamento);
-$("#atributos-conteudo"+n).eq(0).find('td').eq(6).append(" "+objetos[1].visual);
-$("#atributos-conteudo"+n).eq(0).find('td').eq(8).append(" "+objetos[1].textual);
-$("#atributos-conteudo"+n).eq(0).find('td').eq(10).append(" "+objetos[1].social);
-$("#atributos-conteudo"+n).eq(0).find('td').eq(12).append(" "+objetos[1].interativo);
-$("#atributos-conteudo"+n).eq(0).find('td').eq(14).append(" "+"R$"+ objetos[1].custo);
-$("#atributos-conteudo"+n).eq(0).find('td').eq(16).append(" "+objetos[1].unidade);
+$("#atributos-conteudo"+n).eq(0).find('td').eq(0).append(" "+objetos[n].tecnica);
+$("#atributos-conteudo"+n).eq(0).find('td').eq(2).append(" "+objetos[n].pedagogica);
+$("#atributos-conteudo"+n).eq(0).find('td').eq(4).append(" "+objetos[n].acompanhamento);
+$("#atributos-conteudo"+n).eq(0).find('td').eq(6).append(" "+objetos[n].visual);
+$("#atributos-conteudo"+n).eq(0).find('td').eq(8).append(" "+objetos[n].textual);
+$("#atributos-conteudo"+n).eq(0).find('td').eq(10).append(" "+objetos[n].social);
+$("#atributos-conteudo"+n).eq(0).find('td').eq(12).append(" "+objetos[n].interativo);
+$("#atributos-conteudo"+n).eq(0).find('td').eq(14).append(" "+"R$"+ objetos[n].custo);
+$("#atributos-conteudo"+n).eq(0).find('td').eq(16).append(" "+objetos[n].unidade);
 
 }
 
